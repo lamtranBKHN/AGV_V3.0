@@ -1,0 +1,11 @@
+sudo apt update
+sudo apt -y install mariadb-server
+sudo mysql_secure_installation
+
+sudo mysql -uroot -p
+CREATE USER 'lam'@'%' IDENTIFIED BY 'LamTran99@@';
+GRANT ALL PRIVILEGES ON *.* TO 'lam'@'%' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON agv.* TO 'lam'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+#https://stackoverflow.com/questions/50177216/how-to-grant-all-privileges-to-root-user-in-mysql-8-0

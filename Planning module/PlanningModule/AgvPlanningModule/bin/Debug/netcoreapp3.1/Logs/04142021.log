@@ -1,0 +1,682 @@
+
+2021-04-14T14:52:37				--------------------------------
+2021-04-14T14:52:37	Starting planning module ...
+2021-04-14T14:52:38	Connecting to AGV 1 ...
+2021-04-14T14:52:38	Done
+2021-04-14T14:52:38	Connecting to AGV 2 ...
+2021-04-14T14:52:38	Done
+2021-04-14T14:52:38	Connecting to AGV 3 ...
+2021-04-14T14:52:38	Done
+2021-04-14T14:52:38	Connecting to AGV 4 ...
+2021-04-14T14:52:38	Done
+2021-04-14T14:52:38	Planning module is running...
+2021-04-14T14:52:52	6_48  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:52:52	Received request carrying POD 6 to node 48
+2021-04-14T14:52:52	Finding nearest available AGV ...
+2021-04-14T14:52:52	Shortest Distance from 41 to 36: 12
+2021-04-14T14:52:52	Select nearest AGV 1 which is 12 away from POD 6
+2021-04-14T14:52:52	Found best route which distance is: 12
+2021-04-14T14:52:52	Route path is: 41 <-  40 <-  50 <-  60 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:52:52	Found best route which distance is: 13
+2021-04-14T14:52:52	Route path is: 48 <-  47 <-  57 <-  56 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <-  60 <-  50 <-  40 <- 41
+2021-04-14T14:52:53	12_2  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:52:53	Received request carrying POD 12 to node 2
+2021-04-14T14:52:53	Finding nearest available AGV ...
+2021-04-14T14:52:53	There is no available AGV at the moment. Please try again later.
+2021-04-14T14:52:54	12_2  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:52:54	Received request carrying POD 12 to node 2
+2021-04-14T14:52:54	Finding nearest available AGV ...
+2021-04-14T14:52:54	Shortest Distance from 11 to 36: 9
+2021-04-14T14:52:54	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T14:52:54	Found best route which distance is: 9
+2021-04-14T14:52:54	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T14:52:54	Found best route which distance is: 2
+2021-04-14T14:52:54	Route path is: 2 <-  1 <- 11
+2021-04-14T14:52:55	16_2  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:52:55	Received request carrying POD 16 to node 2
+2021-04-14T14:52:55	Finding nearest available AGV ...
+2021-04-14T14:52:55	Shortest Distance from 17 to 36: 3
+2021-04-14T14:52:55	Select nearest AGV 1 which is 3 away from POD 16
+2021-04-14T14:52:55	Found best route which distance is: 3
+2021-04-14T14:52:55	Route path is: 17 <-  16 <-  26 <- 36
+2021-04-14T14:52:56	Found best route which distance is: 6
+2021-04-14T14:52:56	Route path is: 2 <-  3 <-  4 <-  5 <-  6 <-  16 <- 17
+2021-04-14T14:52:56	11_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:52:56	Received request carrying POD 11 to node 18
+2021-04-14T14:52:56	Finding nearest available AGV ...
+2021-04-14T14:52:57	Shortest Distance from 72 to 36: 8
+2021-04-14T14:52:57	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T14:52:57	Found best route which distance is: 8
+2021-04-14T14:52:57	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:52:57	Found best route which distance is: 12
+2021-04-14T14:52:57	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  62 <- 72
+2021-04-14T14:52:57	11_68  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:52:57	Received request carrying POD 11 to node 68
+2021-04-14T14:52:57	Finding nearest available AGV ...
+2021-04-14T14:52:57	There is no available AGV at the moment. Please try again later.
+2021-04-14T14:52:59	11_68  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:52:59	Received request carrying POD 11 to node 68
+2021-04-14T14:52:59	Finding nearest available AGV ...
+2021-04-14T14:52:59	Shortest Distance from 72 to 36: 8
+2021-04-14T14:52:59	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T14:52:59	Found best route which distance is: 8
+2021-04-14T14:52:59	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:00	Found best route which distance is: 7
+2021-04-14T14:53:00	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-04-14T14:53:01	9_58  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:01	Received request carrying POD 9 to node 58
+2021-04-14T14:53:01	Finding nearest available AGV ...
+2021-04-14T14:53:01	Shortest Distance from 71 to 36: 9
+2021-04-14T14:53:01	Select nearest AGV 1 which is 9 away from POD 9
+2021-04-14T14:53:01	Found best route which distance is: 9
+2021-04-14T14:53:01	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:01	Found best route which distance is: 9
+2021-04-14T14:53:01	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-04-14T14:53:01	9_58  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:02	Received request carrying POD 9 to node 58
+2021-04-14T14:53:02	Finding nearest available AGV ...
+2021-04-14T14:53:02	There is no available AGV at the moment. Please try again later.
+2021-04-14T14:53:02	11_68  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:02	Received request carrying POD 11 to node 68
+2021-04-14T14:53:02	Finding nearest available AGV ...
+2021-04-14T14:53:02	Shortest Distance from 72 to 36: 8
+2021-04-14T14:53:02	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T14:53:02	Found best route which distance is: 8
+2021-04-14T14:53:02	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:02	Found best route which distance is: 7
+2021-04-14T14:53:02	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-04-14T14:53:04	9_58  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:04	Received request carrying POD 9 to node 58
+2021-04-14T14:53:04	Finding nearest available AGV ...
+2021-04-14T14:53:04	Shortest Distance from 71 to 36: 9
+2021-04-14T14:53:04	Select nearest AGV 1 which is 9 away from POD 9
+2021-04-14T14:53:04	Found best route which distance is: 9
+2021-04-14T14:53:04	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:04	Found best route which distance is: 9
+2021-04-14T14:53:04	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-04-14T14:53:04	9_58  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:04	Received request carrying POD 9 to node 58
+2021-04-14T14:53:04	Finding nearest available AGV ...
+2021-04-14T14:53:04	There is no available AGV at the moment. Please try again later.
+2021-04-14T14:53:07	11_68  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:07	Received request carrying POD 11 to node 68
+2021-04-14T14:53:07	Finding nearest available AGV ...
+2021-04-14T14:53:07	Shortest Distance from 72 to 36: 8
+2021-04-14T14:53:07	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T14:53:07	Found best route which distance is: 8
+2021-04-14T14:53:07	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:07	Found best route which distance is: 7
+2021-04-14T14:53:07	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+
+2021-04-14T14:53:35				--------------------------------
+2021-04-14T14:53:35	Starting planning module ...
+2021-04-14T14:53:36	Connecting to AGV 1 ...
+2021-04-14T14:53:37	Done
+2021-04-14T14:53:37	Connecting to AGV 2 ...
+2021-04-14T14:53:37	Done
+2021-04-14T14:53:37	Connecting to AGV 3 ...
+2021-04-14T14:53:37	Done
+2021-04-14T14:53:37	Connecting to AGV 4 ...
+2021-04-14T14:53:37	Done
+2021-04-14T14:53:37	Planning module is running...
+2021-04-14T14:53:39	16_2  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:39	Received request carrying POD 16 to node 2
+2021-04-14T14:53:39	Finding nearest available AGV ...
+2021-04-14T14:53:39	Shortest Distance from 17 to 36: 3
+2021-04-14T14:53:39	Select nearest AGV 1 which is 3 away from POD 16
+2021-04-14T14:53:39	Found best route which distance is: 3
+2021-04-14T14:53:39	Route path is: 17 <-  16 <-  26 <- 36
+2021-04-14T14:53:39	Found best route which distance is: 6
+2021-04-14T14:53:39	Route path is: 2 <-  3 <-  4 <-  5 <-  6 <-  16 <- 17
+2021-04-14T14:53:41	11_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:41	Received request carrying POD 11 to node 18
+2021-04-14T14:53:41	Finding nearest available AGV ...
+2021-04-14T14:53:41	Shortest Distance from 72 to 36: 8
+2021-04-14T14:53:41	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T14:53:41	Found best route which distance is: 8
+2021-04-14T14:53:41	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:41	Found best route which distance is: 12
+2021-04-14T14:53:41	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  62 <- 72
+2021-04-14T14:53:43	11_68  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:43	Received request carrying POD 11 to node 68
+2021-04-14T14:53:43	Finding nearest available AGV ...
+2021-04-14T14:53:43	Shortest Distance from 72 to 36: 8
+2021-04-14T14:53:43	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T14:53:43	Found best route which distance is: 8
+2021-04-14T14:53:43	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:43	Found best route which distance is: 7
+2021-04-14T14:53:43	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-04-14T14:53:45	9_58  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:45	Received request carrying POD 9 to node 58
+2021-04-14T14:53:45	Finding nearest available AGV ...
+2021-04-14T14:53:45	Shortest Distance from 71 to 36: 9
+2021-04-14T14:53:45	Select nearest AGV 1 which is 9 away from POD 9
+2021-04-14T14:53:45	Found best route which distance is: 9
+2021-04-14T14:53:45	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:45	Found best route which distance is: 9
+2021-04-14T14:53:45	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-04-14T14:53:48	6_48  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:48	Received request carrying POD 6 to node 48
+2021-04-14T14:53:48	Finding nearest available AGV ...
+2021-04-14T14:53:48	Shortest Distance from 41 to 36: 12
+2021-04-14T14:53:48	Select nearest AGV 1 which is 12 away from POD 6
+2021-04-14T14:53:48	Found best route which distance is: 12
+2021-04-14T14:53:48	Route path is: 41 <-  40 <-  50 <-  60 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T14:53:48	Found best route which distance is: 13
+2021-04-14T14:53:48	Route path is: 48 <-  47 <-  57 <-  56 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <-  60 <-  50 <-  40 <- 41
+2021-04-14T14:53:50	12_2  on topic: dashboardPodCarryingRequest
+
+2021-04-14T14:53:50	Received request carrying POD 12 to node 2
+2021-04-14T14:53:50	Finding nearest available AGV ...
+2021-04-14T14:53:50	Shortest Distance from 11 to 36: 9
+2021-04-14T14:53:50	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T14:53:50	Found best route which distance is: 9
+2021-04-14T14:53:50	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T14:53:50	Found best route which distance is: 2
+2021-04-14T14:53:50	Route path is: 2 <-  1 <- 11
+
+2021-04-14T14:54:14				--------------------------------
+2021-04-14T14:54:14	Starting planning module ...
+2021-04-14T14:54:15	Connecting to AGV 1 ...
+2021-04-14T14:54:18	Done
+2021-04-14T14:54:18	Connecting to AGV 2 ...
+2021-04-14T14:54:18	Done
+2021-04-14T14:54:18	Connecting to AGV 3 ...
+2021-04-14T14:54:18	Done
+2021-04-14T14:54:18	Connecting to AGV 4 ...
+2021-04-14T14:54:18	Done
+2021-04-14T14:54:18	Planning module is running...
+
+2021-04-14T23:53:36				--------------------------------
+2021-04-14T23:53:36	Starting planning module ...
+2021-04-14T23:53:38	Connecting to AGV 1 ...
+2021-04-14T23:53:38	Done
+2021-04-14T23:53:38	Connecting to AGV 2 ...
+2021-04-14T23:53:38	Done
+2021-04-14T23:53:38	Connecting to AGV 3 ...
+2021-04-14T23:53:38	Done
+2021-04-14T23:53:38	Connecting to AGV 4 ...
+2021-04-14T23:53:38	Done
+2021-04-14T23:53:38	Planning module is running...
+2021-04-14T23:53:41	ab033001161841921999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:53:41	Recieved heartbeat command : ab033001161841921999C3903C3699
+2021-04-14T23:53:44	11_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:53:44	Received request carrying POD 11 to node 18
+2021-04-14T23:53:44	Finding nearest available AGV ...
+2021-04-14T23:53:44	Shortest Distance from 72 to 36: 8
+2021-04-14T23:53:44	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T23:53:44	Found best route which distance is: 8
+2021-04-14T23:53:44	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T23:53:44	Found best route which distance is: 12
+2021-04-14T23:53:44	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  62 <- 72
+2021-04-14T23:53:45	ab033001161841922399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:53:45	Recieved heartbeat command : ab033001161841922399C3903C3699
+2021-04-14T23:53:50	ab033001161841922799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:53:50	Recieved heartbeat command : ab033001161841922799C3903C3699
+2021-04-14T23:53:51	17_28  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:53:51	Received request carrying POD 17 to node 28
+2021-04-14T23:53:51	Finding nearest available AGV ...
+2021-04-14T23:53:51	Shortest Distance from 27 to 36: 2
+2021-04-14T23:53:51	Select nearest AGV 1 which is 2 away from POD 17
+2021-04-14T23:53:51	Found best route which distance is: 2
+2021-04-14T23:53:51	Route path is: 27 <-  26 <- 36
+2021-04-14T23:53:51	Found best route which distance is: 1
+2021-04-14T23:53:51	Route path is: 28 <- 27
+2021-04-14T23:53:52	ab033001161841923099C3903C3699  on topic: agvHandler
+
+2021-04-14T23:53:52	Recieved heartbeat command : ab033001161841923099C3903C3699
+2021-04-14T23:53:56	ab033001161841923499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:53:56	Recieved heartbeat command : ab033001161841923499C3903C3699
+2021-04-14T23:53:58	17_27  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:53:58	Received request carrying POD 17 to node 27
+2021-04-14T23:53:58	Finding nearest available AGV ...
+2021-04-14T23:53:58	Shortest Distance from 27 to 36: 2
+2021-04-14T23:53:58	Select nearest AGV 1 which is 2 away from POD 17
+2021-04-14T23:53:58	Found best route which distance is: 2
+2021-04-14T23:53:58	Route path is: 27 <-  26 <- 36
+2021-04-14T23:53:58	Found best route which distance is: 0
+2021-04-14T23:53:58	Route path is:27
+2021-04-14T23:53:59	ab033001161841923799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:53:59	Recieved heartbeat command : ab033001161841923799C3903C3699
+2021-04-14T23:54:03	17_27  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:54:03	Received request carrying POD 17 to node 27
+2021-04-14T23:54:03	Finding nearest available AGV ...
+2021-04-14T23:54:03	Shortest Distance from 27 to 36: 2
+2021-04-14T23:54:03	Select nearest AGV 1 which is 2 away from POD 17
+2021-04-14T23:54:03	Found best route which distance is: 2
+2021-04-14T23:54:03	Route path is: 27 <-  26 <- 36
+2021-04-14T23:54:03	Found best route which distance is: 0
+2021-04-14T23:54:03	Route path is:27
+2021-04-14T23:54:03	ab033001161841924199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:03	Recieved heartbeat command : ab033001161841924199C3903C3699
+2021-04-14T23:54:06	ab033001161841924499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:06	Recieved heartbeat command : ab033001161841924499C3903C3699
+2021-04-14T23:54:08	11_68  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:54:08	Received request carrying POD 11 to node 68
+2021-04-14T23:54:08	Finding nearest available AGV ...
+2021-04-14T23:54:08	Shortest Distance from 72 to 36: 8
+2021-04-14T23:54:08	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T23:54:08	Found best route which distance is: 8
+2021-04-14T23:54:08	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T23:54:08	Found best route which distance is: 7
+2021-04-14T23:54:08	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-04-14T23:54:10	ab033001161841924999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:10	Recieved heartbeat command : ab033001161841924999C3903C3699
+2021-04-14T23:54:13	ab033001161841925299C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:13	Recieved heartbeat command : ab033001161841925299C3903C3699
+2021-04-14T23:54:17	ab033001161841925699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:17	Recieved heartbeat command : ab033001161841925699C3903C3699
+2021-04-14T23:54:21	ab033001161841925999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:21	Recieved heartbeat command : ab033001161841925999C3903C3699
+2021-04-14T23:54:24	ab033001161841926399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:24	Recieved heartbeat command : ab033001161841926399C3903C3699
+2021-04-14T23:54:27	11_68  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:54:27	Received request carrying POD 11 to node 68
+2021-04-14T23:54:27	Finding nearest available AGV ...
+2021-04-14T23:54:27	Shortest Distance from 72 to 36: 8
+2021-04-14T23:54:27	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-14T23:54:27	Found best route which distance is: 8
+2021-04-14T23:54:27	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T23:54:27	Found best route which distance is: 7
+2021-04-14T23:54:27	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-04-14T23:54:28	ab033001161841926699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:28	Recieved heartbeat command : ab033001161841926699C3903C3699
+2021-04-14T23:54:33	ab033001161841927099C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:33	Recieved heartbeat command : ab033001161841927099C3903C3699
+2021-04-14T23:54:33	9_58  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:54:33	Received request carrying POD 9 to node 58
+2021-04-14T23:54:33	Finding nearest available AGV ...
+2021-04-14T23:54:33	Shortest Distance from 71 to 36: 9
+2021-04-14T23:54:33	Select nearest AGV 1 which is 9 away from POD 9
+2021-04-14T23:54:33	Found best route which distance is: 9
+2021-04-14T23:54:33	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T23:54:33	Found best route which distance is: 9
+2021-04-14T23:54:33	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-04-14T23:54:35	ab033001161841927499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:35	Recieved heartbeat command : ab033001161841927499C3903C3699
+2021-04-14T23:54:39	ab033001161841927799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:39	Recieved heartbeat command : ab033001161841927799C3903C3699
+2021-04-14T23:54:42	ab033001161841928199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:42	Recieved heartbeat command : ab033001161841928199C3903C3699
+2021-04-14T23:54:46	ab033001161841928499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:46	Recieved heartbeat command : ab033001161841928499C3903C3699
+2021-04-14T23:54:49	ab033001161841928899C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:49	Recieved heartbeat command : ab033001161841928899C3903C3699
+2021-04-14T23:54:53	ab033001161841929199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:53	Recieved heartbeat command : ab033001161841929199C3903C3699
+2021-04-14T23:54:56	ab033001161841929599C3903C3699  on topic: agvHandler
+
+2021-04-14T23:54:56	Recieved heartbeat command : ab033001161841929599C3903C3699
+2021-04-14T23:55:00	ab033001161841929899C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:00	Recieved heartbeat command : ab033001161841929899C3903C3699
+2021-04-14T23:55:03	ab033001161841930299C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:03	Recieved heartbeat command : ab033001161841930299C3903C3699
+2021-04-14T23:55:07	ab033001161841930599C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:07	Recieved heartbeat command : ab033001161841930599C3903C3699
+2021-04-14T23:55:10	ab033001161841930999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:10	Recieved heartbeat command : ab033001161841930999C3903C3699
+2021-04-14T23:55:14	ab033001161841931299C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:14	Recieved heartbeat command : ab033001161841931299C3903C3699
+2021-04-14T23:55:17	9_58  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:55:17	Received request carrying POD 9 to node 58
+2021-04-14T23:55:17	Finding nearest available AGV ...
+2021-04-14T23:55:17	Shortest Distance from 71 to 36: 9
+2021-04-14T23:55:17	Select nearest AGV 1 which is 9 away from POD 9
+2021-04-14T23:55:17	Found best route which distance is: 9
+2021-04-14T23:55:17	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-14T23:55:17	Found best route which distance is: 9
+2021-04-14T23:55:17	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-04-14T23:55:18	ab033001161841931699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:18	Recieved heartbeat command : ab033001161841931699C3903C3699
+2021-04-14T23:55:21	ab033001161841931999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:21	Recieved heartbeat command : ab033001161841931999C3903C3699
+2021-04-14T23:55:25	ab033001161841932399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:25	Recieved heartbeat command : ab033001161841932399C3903C3699
+2021-04-14T23:55:28	ab033001161841932699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:28	Recieved heartbeat command : ab033001161841932699C3903C3699
+2021-04-14T23:55:32	ab033001161841933099C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:32	Recieved heartbeat command : ab033001161841933099C3903C3699
+2021-04-14T23:55:35	ab033001161841933399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:35	Recieved heartbeat command : ab033001161841933399C3903C3699
+2021-04-14T23:55:39	ab033001161841933799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:39	Recieved heartbeat command : ab033001161841933799C3903C3699
+2021-04-14T23:55:43	ab033001161841934199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:43	Recieved heartbeat command : ab033001161841934199C3903C3699
+2021-04-14T23:55:46	ab033001161841934499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:46	Recieved heartbeat command : ab033001161841934499C3903C3699
+2021-04-14T23:55:50	ab033001161841934899C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:50	Recieved heartbeat command : ab033001161841934899C3903C3699
+2021-04-14T23:55:53	ab033001161841935199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:53	Recieved heartbeat command : ab033001161841935199C3903C3699
+2021-04-14T23:55:56	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:55:56	Received request carrying POD 12 to node 18
+2021-04-14T23:55:56	Finding nearest available AGV ...
+2021-04-14T23:55:56	Shortest Distance from 11 to 36: 9
+2021-04-14T23:55:56	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T23:55:56	Found best route which distance is: 9
+2021-04-14T23:55:56	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T23:55:56	Found best route which distance is: 19
+2021-04-14T23:55:56	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-14T23:55:57	ab033001161841935599C3903C3699  on topic: agvHandler
+
+2021-04-14T23:55:57	Recieved heartbeat command : ab033001161841935599C3903C3699
+2021-04-14T23:56:00	ab033001161841935899C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:00	Recieved heartbeat command : ab033001161841935899C3903C3699
+2021-04-14T23:56:04	ab033001161841936299C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:04	Recieved heartbeat command : ab033001161841936299C3903C3699
+2021-04-14T23:56:07	ab033001161841936599C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:07	Recieved heartbeat command : ab033001161841936599C3903C3699
+2021-04-14T23:56:11	ab033001161841937099C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:11	Recieved heartbeat command : ab033001161841937099C3903C3699
+2021-04-14T23:56:14	ab033001161841937399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:14	Recieved heartbeat command : ab033001161841937399C3903C3699
+2021-04-14T23:56:18	ab033001161841937799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:18	Recieved heartbeat command : ab033001161841937799C3903C3699
+2021-04-14T23:56:20	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:56:20	Received request carrying POD 12 to node 18
+2021-04-14T23:56:20	Finding nearest available AGV ...
+2021-04-14T23:56:20	Shortest Distance from 11 to 36: 9
+2021-04-14T23:56:20	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T23:56:20	Found best route which distance is: 9
+2021-04-14T23:56:20	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T23:56:20	Found best route which distance is: 19
+2021-04-14T23:56:20	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-14T23:56:21	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:56:21	Received request carrying POD 12 to node 18
+2021-04-14T23:56:21	Finding nearest available AGV ...
+2021-04-14T23:56:21	Shortest Distance from 11 to 36: 9
+2021-04-14T23:56:21	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T23:56:21	Found best route which distance is: 9
+2021-04-14T23:56:21	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T23:56:21	Found best route which distance is: 19
+2021-04-14T23:56:21	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-14T23:56:22	ab033001161841938099C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:22	Recieved heartbeat command : ab033001161841938099C3903C3699
+2021-04-14T23:56:25	ab033001161841938499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:25	Recieved heartbeat command : ab033001161841938499C3903C3699
+2021-04-14T23:56:26	17_28  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:56:26	Received request carrying POD 17 to node 28
+2021-04-14T23:56:26	Finding nearest available AGV ...
+2021-04-14T23:56:26	Shortest Distance from 27 to 36: 2
+2021-04-14T23:56:26	Select nearest AGV 1 which is 2 away from POD 17
+2021-04-14T23:56:27	Found best route which distance is: 2
+2021-04-14T23:56:27	Route path is: 27 <-  26 <- 36
+2021-04-14T23:56:27	Found best route which distance is: 1
+2021-04-14T23:56:27	Route path is: 28 <- 27
+2021-04-14T23:56:30	ab033001161841938799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:30	Recieved heartbeat command : ab033001161841938799C3903C3699
+2021-04-14T23:56:32	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:56:32	Received request carrying POD 12 to node 18
+2021-04-14T23:56:32	Finding nearest available AGV ...
+2021-04-14T23:56:32	Shortest Distance from 11 to 36: 9
+2021-04-14T23:56:32	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T23:56:32	Found best route which distance is: 9
+2021-04-14T23:56:32	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T23:56:32	Found best route which distance is: 19
+2021-04-14T23:56:32	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-14T23:56:33	ab033001161841939199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:33	Recieved heartbeat command : ab033001161841939199C3903C3699
+2021-04-14T23:56:36	ab033001161841939499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:36	Recieved heartbeat command : ab033001161841939499C3903C3699
+2021-04-14T23:56:39	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:56:39	Received request carrying POD 12 to node 18
+2021-04-14T23:56:39	Finding nearest available AGV ...
+2021-04-14T23:56:39	Shortest Distance from 11 to 36: 9
+2021-04-14T23:56:39	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T23:56:39	Found best route which distance is: 9
+2021-04-14T23:56:39	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T23:56:39	Found best route which distance is: 19
+2021-04-14T23:56:39	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-14T23:56:40	ab033001161841939899C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:40	Recieved heartbeat command : ab033001161841939899C3903C3699
+2021-04-14T23:56:43	ab033001161841940199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:43	Recieved heartbeat command : ab033001161841940199C3903C3699
+2021-04-14T23:56:46	ab033001161841940599C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:46	Recieved heartbeat command : ab033001161841940599C3903C3699
+2021-04-14T23:56:50	ab033001161841940999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:50	Recieved heartbeat command : ab033001161841940999C3903C3699
+2021-04-14T23:56:53	ab033001161841941299C3903C3699  on topic: agvHandler
+
+2021-04-14T23:56:53	Recieved heartbeat command : ab033001161841941299C3903C3699
+2021-04-14T23:57:01	ab033001161841941699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:01	Recieved heartbeat command : ab033001161841941699C3903C3699
+2021-04-14T23:57:02	ab033001161841941999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:02	Recieved heartbeat command : ab033001161841941999C3903C3699
+2021-04-14T23:57:04	ab033001161841942399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:04	Recieved heartbeat command : ab033001161841942399C3903C3699
+2021-04-14T23:57:08	ab033001161841942699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:08	Recieved heartbeat command : ab033001161841942699C3903C3699
+2021-04-14T23:57:29	ab033001161841943099C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:29	Recieved heartbeat command : ab033001161841943099C3903C3699
+2021-04-14T23:57:29	ab033001161841943399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:29	Recieved heartbeat command : ab033001161841943399C3903C3699
+2021-04-14T23:57:29	ab033001161841943799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:29	Recieved heartbeat command : ab033001161841943799C3903C3699
+2021-04-14T23:57:29	ab033001161841944099C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:29	Recieved heartbeat command : ab033001161841944099C3903C3699
+2021-04-14T23:57:29	ab033001161841944499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:29	Recieved heartbeat command : ab033001161841944499C3903C3699
+2021-04-14T23:57:29	ab033001161841944799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:29	Recieved heartbeat command : ab033001161841944799C3903C3699
+2021-04-14T23:57:32	ab033001161841945199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:32	Recieved heartbeat command : ab033001161841945199C3903C3699
+2021-04-14T23:57:33	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:57:33	Received request carrying POD 12 to node 18
+2021-04-14T23:57:33	Finding nearest available AGV ...
+2021-04-14T23:57:33	Shortest Distance from 11 to 36: 9
+2021-04-14T23:57:33	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T23:57:33	Found best route which distance is: 9
+2021-04-14T23:57:33	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T23:57:33	Found best route which distance is: 19
+2021-04-14T23:57:33	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-14T23:57:36	ab033001161841945499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:36	Recieved heartbeat command : ab033001161841945499C3903C3699
+2021-04-14T23:57:40	ab033001161841945899C3903C3699  on topic: agvHandler
+
+2021-04-14T23:57:40	Recieved heartbeat command : ab033001161841945899C3903C3699
+2021-04-14T23:58:08	ab02220116184194861299  on topic: agvHandler
+
+2021-04-14T23:58:08	Recieved login command : ab02220116184194861299
+2021-04-14T23:58:11	ab033001161841948999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:11	Recieved heartbeat command : ab033001161841948999C3903C3699
+2021-04-14T23:58:15	ab033001161841949399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:15	Recieved heartbeat command : ab033001161841949399C3903C3699
+2021-04-14T23:58:18	ab033001161841949699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:18	Recieved heartbeat command : ab033001161841949699C3903C3699
+2021-04-14T23:58:22	ab033001161841950099C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:22	Recieved heartbeat command : ab033001161841950099C3903C3699
+2021-04-14T23:58:26	ab033001161841950499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:26	Recieved heartbeat command : ab033001161841950499C3903C3699
+2021-04-14T23:58:29	ab033001161841950799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:29	Recieved heartbeat command : ab033001161841950799C3903C3699
+2021-04-14T23:58:33	ab033001161841951199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:33	Recieved heartbeat command : ab033001161841951199C3903C3699
+2021-04-14T23:58:36	ab033001161841951499C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:36	Recieved heartbeat command : ab033001161841951499C3903C3699
+2021-04-14T23:58:40	ab033001161841951899C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:40	Recieved heartbeat command : ab033001161841951899C3903C3699
+2021-04-14T23:58:43	ab033001161841952199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:43	Recieved heartbeat command : ab033001161841952199C3903C3699
+2021-04-14T23:58:47	ab033001161841952599C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:47	Recieved heartbeat command : ab033001161841952599C3903C3699
+2021-04-14T23:58:51	ab033001161841952999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:51	Recieved heartbeat command : ab033001161841952999C3903C3699
+2021-04-14T23:58:55	ab033001161841953399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:55	Recieved heartbeat command : ab033001161841953399C3903C3699
+2021-04-14T23:58:59	ab033001161841953799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:58:59	Recieved heartbeat command : ab033001161841953799C3903C3699
+2021-04-14T23:59:00	17_27  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:59:00	Received request carrying POD 17 to node 27
+2021-04-14T23:59:00	Finding nearest available AGV ...
+2021-04-14T23:59:00	Shortest Distance from 27 to 36: 2
+2021-04-14T23:59:00	Select nearest AGV 1 which is 2 away from POD 17
+2021-04-14T23:59:00	Found best route which distance is: 2
+2021-04-14T23:59:00	Route path is: 27 <-  26 <- 36
+2021-04-14T23:59:00	Found best route which distance is: 0
+2021-04-14T23:59:00	Route path is:27
+2021-04-14T23:59:03	ab033001161841954199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:03	Recieved heartbeat command : ab033001161841954199C3903C3699
+2021-04-14T23:59:07	ab033001161841954699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:07	Recieved heartbeat command : ab033001161841954699C3903C3699
+2021-04-14T23:59:11	ab033001161841954999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:11	Recieved heartbeat command : ab033001161841954999C3903C3699
+2021-04-14T23:59:12	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-14T23:59:12	Received request carrying POD 12 to node 18
+2021-04-14T23:59:12	Finding nearest available AGV ...
+2021-04-14T23:59:12	Shortest Distance from 11 to 36: 9
+2021-04-14T23:59:12	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-14T23:59:12	Found best route which distance is: 9
+2021-04-14T23:59:12	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-14T23:59:12	Found best route which distance is: 19
+2021-04-14T23:59:12	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-14T23:59:15	ab033001161841955399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:15	Recieved heartbeat command : ab033001161841955399C3903C3699
+2021-04-14T23:59:19	ab033001161841955799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:19	Recieved heartbeat command : ab033001161841955799C3903C3699
+2021-04-14T23:59:23	ab033001161841956199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:23	Recieved heartbeat command : ab033001161841956199C3903C3699
+2021-04-14T23:59:27	ab033001161841956599C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:27	Recieved heartbeat command : ab033001161841956599C3903C3699
+2021-04-14T23:59:31	ab033001161841956999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:31	Recieved heartbeat command : ab033001161841956999C3903C3699
+2021-04-14T23:59:35	ab033001161841957399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:35	Recieved heartbeat command : ab033001161841957399C3903C3699
+2021-04-14T23:59:39	ab033001161841957799C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:39	Recieved heartbeat command : ab033001161841957799C3903C3699
+2021-04-14T23:59:42	ab033001161841958199C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:42	Recieved heartbeat command : ab033001161841958199C3903C3699
+2021-04-14T23:59:46	ab033001161841958599C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:46	Recieved heartbeat command : ab033001161841958599C3903C3699
+2021-04-14T23:59:50	ab033001161841958999C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:50	Recieved heartbeat command : ab033001161841958999C3903C3699
+2021-04-14T23:59:54	ab033001161841959399C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:54	Recieved heartbeat command : ab033001161841959399C3903C3699
+2021-04-14T23:59:58	ab033001161841959699C3903C3699  on topic: agvHandler
+
+2021-04-14T23:59:58	Recieved heartbeat command : ab033001161841959699C3903C3699

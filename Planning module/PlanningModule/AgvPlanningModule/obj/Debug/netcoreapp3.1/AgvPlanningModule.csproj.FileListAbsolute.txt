@@ -1,0 +1,364 @@
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.exe
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csprojAssemblyReference.cache
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+E:/AGV3.0/Plannig server/PlanningServer_12.1.2021/AgvPlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.genruntimeconfig.cache
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csprojAssemblyReference.cache
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.exe
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete
+C:/Users/lamtd/Desktop/New folder/AgvPlanningModuleVer2/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.genruntimeconfig.cache
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.exe
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csprojAssemblyReference.cache
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+E:/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.genruntimeconfig.cache
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.exe
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csprojAssemblyReference.cache
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+D:/AGV3.0/AGV3.0/Source code/2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.genruntimeconfig.cache
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.exe
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.genruntimeconfig.cache
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.exe
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csprojAssemblyReference.cache
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+D:/AGV3.0/AGV3.0/Source code/2021_new/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.genruntimeconfig.cache
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.exe
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csprojAssemblyReference.cache
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.genruntimeconfig.cache
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+C:/Users/lamtd/Desktop/New folder/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/appsettings.json
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/appsettings.json
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+D:/AGV3.0/AGV3.0/Source code/2021/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csprojAssemblyReference.cache
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.exe
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete
+C:/Users/lamtd/Desktop/PJ/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.genruntimeconfig.cache
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/appsettings.json
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.deps.json
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.json
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.runtimeconfig.dev.json
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/AgvPlanningModule.pdb
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Google.Protobuf.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Compression.LZ4.Streams.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/K4os.Hash.xxHash.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/M2Mqtt.Net.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/MySql.Data.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Zstandard.Net.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/Renci.SshNet.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.AssemblyReference.cache
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CoreCompileInputs.cache
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfoInputs.cache
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.AssemblyInfo.cs
+/Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/obj/Debug/netcoreapp3.1/AgvPlanningModule.csproj.CopyComplete

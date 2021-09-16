@@ -1,0 +1,27 @@
+wget -O- https://dl.bintray.com/rabbitmq/Keys/rabbitmq-release-signing-key.asc | sudo apt-key add -
+wget -O- https://www.rabbitmq.com/rabbitmq-release-signing-key.asc | sudo apt-key add - 
+echo "deb https://dl.bintray.com/rabbitmq/debian bionic main" | sudo tee /etc/apt/sources.list.d/rabbitmq.list
+sudo apt install rabbitmq-server
+systemctl is-enabled rabbitmq-server.service 
+sudo systemctl enable rabbitmq-server
+sudo rabbitmq-plugins enable rabbitmq_management
+sudo rabbitmq-plugins enable rabbitmq_mqtt
+sudo ufw allow proto tcp from any to any port 1883,5672,15672
+sudo rabbitmqctl add_user lam a
+sudo rabbitmqctl set_user_tags lam administrator
+
+
+
+# For MacOs
+brew install rabbitmq
+brew services start rabbitmq
+
+// check rabbitmq version
+ls /usr/local/Cellar/rabbitmq/
+// add to .bash_profile:
+export PATH=/usr/local/Cellar/rabbitmq/<version>/sbin:$PATH
+
+sudo rabbitmq-plugins enable rabbitmq_management
+sudo rabbitmq-plugins enable rabbitmq_mqtt
+sudo rabbitmqctl add_user lam a
+sudo rabbitmqctl set_user_tags lam administrator

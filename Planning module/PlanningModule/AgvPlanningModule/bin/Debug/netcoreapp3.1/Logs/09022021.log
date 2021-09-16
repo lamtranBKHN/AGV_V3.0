@@ -1,0 +1,1478 @@
+
+2021-09-02T21:34:29				--------------------------------
+2021-09-02T21:34:29	Starting planning module ...
+2021-09-02T21:34:45	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 75
+2021-09-02T21:34:45	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:45	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:34:45	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:46	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-02T21:34:46	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:46	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-02T21:34:46	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:46	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:34:46	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:46	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-02T21:34:46	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:46	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:34:46	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:46	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:34:46	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:46	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:34:47	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (64): Host is down
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.UnsafeBeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state, Boolean flowContext)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_0(String targetHost, Int32 targetPort, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Sockets.TcpClient.ConnectAsync(String host, Int32 port)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 75
+2021-09-02T21:34:47	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:47	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:34:47	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:47	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-02T21:34:47	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:47	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-02T21:34:47	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:47	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:34:47	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:47	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-02T21:34:47	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:47	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:34:47	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:48	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:34:48	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:48	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:34:48	uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (64): Host is down 192.168.1.103:1883
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect()
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod)
+   --- End of inner exception stack trace ---
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod)
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password)
+   at AgvPlanningModule.AgvCommunication.Init() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvCommunication.cs:line 49
+2021-09-02T21:34:48	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (64): Host is down
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.UnsafeBeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state, Boolean flowContext)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_0(String targetHost, Int32 targetPort, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Sockets.TcpClient.ConnectAsync(String host, Int32 port)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 75
+2021-09-02T21:34:48	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:48	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:34:48	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:48	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-02T21:34:48	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:48	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-02T21:34:48	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:48	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:34:49	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:49	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-02T21:34:49	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:49	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:34:49	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:49	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:34:49	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:49	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:34:49	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:49	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:34:49	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (64): Host is down
+   at System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.UnsafeBeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state, Boolean flowContext)
+   at System.Net.Sockets.Socket.BeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_0(String targetHost, Int32 targetPort, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Sockets.TcpClient.ConnectAsync(String host, Int32 port)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 75
+2021-09-02T21:34:49	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:49	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:34:49	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:50	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-02T21:34:50	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:50	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-02T21:34:50	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:50	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:34:50	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:50	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-02T21:34:50	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:50	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:34:50	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:50	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:34:50	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:51	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:34:51	uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (64): Host is down 192.168.1.103:1883
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect()
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod)
+   --- End of inner exception stack trace ---
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod)
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password)
+   at AgvPlanningModule.AgvCommunication.Init() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvCommunication.cs:line 49
+2021-09-02T21:34:51	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:34:51	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:34:51	Planning module is running...
+
+2021-09-02T21:35:55				--------------------------------
+2021-09-02T21:35:55	Starting planning module ...
+2021-09-02T21:35:56	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000005, 0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 75
+2021-09-02T21:35:56	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:56	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:35:56	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:56	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-02T21:35:56	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-02T21:35:57	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:35:57	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-02T21:35:57	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:35:57	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:35:57	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:35:57	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000005, 0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 75
+2021-09-02T21:35:57	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:35:58	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-02T21:35:58	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-02T21:35:58	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:35:58	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-02T21:35:58	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:35:58	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:35:58	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:35:59	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000005, 0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 75
+2021-09-02T21:35:59	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:35:59	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-02T21:35:59	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-02T21:35:59	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:35:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:35:59	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:00	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-02T21:36:00	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:00	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:36:00	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:00	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:36:00	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:00	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:36:00	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:00	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:36:00	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000005, 0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.ResolveCallback(Object context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Dns.HostResolutionEndHelper(IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Dns.<>c.<GetHostAddressesAsync>b__25_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 75
+2021-09-02T21:36:00	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:00	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:36:00	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:00	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-02T21:36:01	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:01	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-02T21:36:01	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:01	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:36:01	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:01	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-02T21:36:01	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:01	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:36:01	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:01	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:36:01	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:01	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:36:01	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:02	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:36:02	Planning module is running...
+
+2021-09-02T21:36:12				--------------------------------
+2021-09-02T21:36:12	Starting planning module ...
+2021-09-02T21:36:13	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 287
+2021-09-02T21:36:13	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:13	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:36:13	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:13	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:36:13	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:13	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:36:13	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 287
+2021-09-02T21:36:13	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:13	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:36:13	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:14	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:36:14	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:14	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:36:14	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 287
+2021-09-02T21:36:14	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:14	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:36:14	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:14	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:36:14	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:15	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:36:15	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:15	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:36:15	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 287
+2021-09-02T21:36:15	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:15	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:36:15	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:15	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:36:16	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:16	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:36:16	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:36:16	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:36:16	Planning module is running...
+
+2021-09-02T21:46:20				--------------------------------
+2021-09-02T21:46:20	Starting planning module ...
+2021-09-02T21:46:21	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 287
+2021-09-02T21:46:21	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:21	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:46:21	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:21	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:46:21	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:21	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:46:21	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 287
+2021-09-02T21:46:21	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:21	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:46:21	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:22	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:46:22	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:22	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:46:22	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 287
+2021-09-02T21:46:22	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:22	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:46:22	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:22	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:46:22	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:22	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:46:22	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:23	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-02T21:46:23	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 287
+2021-09-02T21:46:23	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:23	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-02T21:46:23	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:23	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-02T21:46:23	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:23	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-02T21:46:23	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-02T21:46:23	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-02T21:46:23	Planning module is running...
+
+2021-09-02T21:50:36				--------------------------------
+2021-09-02T21:50:36	Starting planning module ...
+2021-09-02T21:50:37	Connecting to AGV 1 ...
+2021-09-02T21:50:37	Done
+2021-09-02T21:50:37	Connecting to AGV 2 ...
+2021-09-02T21:50:37	Done
+2021-09-02T21:50:37	Connecting to AGV 3 ...
+2021-09-02T21:50:37	Done
+2021-09-02T21:50:37	Connecting to AGV 4 ...
+2021-09-02T21:50:37	Done
+2021-09-02T21:50:37	Planning module is running...
+2021-09-02T21:51:05	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:51:05	Received request carrying POD 12 to node 18
+2021-09-02T21:51:05	Finding nearest available AGV ...
+2021-09-02T21:51:05	Shortest Distance from 11 to 36: 9
+2021-09-02T21:51:05	Select nearest AGV 1 which is 9 away from POD 12
+2021-09-02T21:51:05	Found best route which distance is: 9
+2021-09-02T21:51:05	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-02T21:51:05	Found best route which distance is: 19
+2021-09-02T21:51:05	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-09-02T21:51:06	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:51:06	Received request carrying POD 12 to node 18
+2021-09-02T21:51:06	Finding nearest available AGV ...
+2021-09-02T21:51:06	There is no available AGV at the moment. Please try again later.
+2021-09-02T21:51:08	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:51:08	Received request carrying POD 12 to node 18
+2021-09-02T21:51:08	Finding nearest available AGV ...
+2021-09-02T21:51:08	Shortest Distance from 11 to 36: 9
+2021-09-02T21:51:08	Select nearest AGV 1 which is 9 away from POD 12
+2021-09-02T21:51:08	Found best route which distance is: 9
+2021-09-02T21:51:08	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-02T21:51:08	Found best route which distance is: 19
+2021-09-02T21:51:08	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+
+2021-09-02T21:52:25				--------------------------------
+2021-09-02T21:52:25	Starting planning module ...
+2021-09-02T21:52:26	Connecting to AGV 1 ...
+2021-09-02T21:52:26	Done
+2021-09-02T21:52:26	Connecting to AGV 2 ...
+2021-09-02T21:52:26	Done
+2021-09-02T21:52:26	Connecting to AGV 3 ...
+2021-09-02T21:52:26	Done
+2021-09-02T21:52:26	Connecting to AGV 4 ...
+2021-09-02T21:52:26	Done
+2021-09-02T21:52:26	Planning module is running...
+2021-09-02T21:52:37	ab02220116305943571299  on topic: agvHandler
+
+2021-09-02T21:52:37	Recieved login command : ab02220116305943571299
+2021-09-02T21:52:37	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:52:37	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-02T21:52:42	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:52:42	Received request carrying POD 12 to node 18
+2021-09-02T21:52:42	Finding nearest available AGV ...
+2021-09-02T21:52:42	Shortest Distance from 11 to 36: 9
+2021-09-02T21:52:42	Select nearest AGV 1 which is 9 away from POD 12
+2021-09-02T21:52:42	Found best route which distance is: 9
+2021-09-02T21:52:42	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-02T21:52:42	Found best route which distance is: 19
+2021-09-02T21:52:42	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-09-02T21:52:47	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:52:47	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-02T21:52:57	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:52:57	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-02T21:54:10	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:54:10	Received request carrying POD 12 to node 18
+2021-09-02T21:54:10	Finding nearest available AGV ...
+2021-09-02T21:54:10	Shortest Distance from 11 to 36: 9
+2021-09-02T21:54:10	Select nearest AGV 1 which is 9 away from POD 12
+2021-09-02T21:54:10	Found best route which distance is: 9
+2021-09-02T21:54:10	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-02T21:54:10	Found best route which distance is: 19
+2021-09-02T21:54:10	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-09-02T21:54:27	17_28  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:54:27	Received request carrying POD 17 to node 28
+2021-09-02T21:54:27	Finding nearest available AGV ...
+2021-09-02T21:54:27	Shortest Distance from 27 to 36: 2
+2021-09-02T21:54:27	Select nearest AGV 1 which is 2 away from POD 17
+2021-09-02T21:54:27	Found best route which distance is: 2
+2021-09-02T21:54:27	Route path is: 27 <-  26 <- 36
+2021-09-02T21:54:27	Found best route which distance is: 1
+2021-09-02T21:54:27	Route path is: 28 <- 27
+2021-09-02T21:54:42	17_28  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:54:42	Received request carrying POD 17 to node 28
+2021-09-02T21:54:42	Finding nearest available AGV ...
+2021-09-02T21:54:42	Shortest Distance from 27 to 36: 2
+2021-09-02T21:54:42	Select nearest AGV 1 which is 2 away from POD 17
+2021-09-02T21:54:42	Found best route which distance is: 2
+2021-09-02T21:54:42	Route path is: 27 <-  26 <- 36
+2021-09-02T21:54:42	Found best route which distance is: 1
+2021-09-02T21:54:42	Route path is: 28 <- 27
+2021-09-02T21:56:51	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:56:51	Received request carrying POD 12 to node 18
+2021-09-02T21:56:51	Finding nearest available AGV ...
+2021-09-02T21:56:51	Shortest Distance from 11 to 36: 9
+2021-09-02T21:56:51	Select nearest AGV 1 which is 9 away from POD 12
+2021-09-02T21:56:51	Found best route which distance is: 9
+2021-09-02T21:56:51	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-02T21:56:51	Found best route which distance is: 19
+2021-09-02T21:56:51	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-09-02T21:57:02	17_28  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:57:02	Received request carrying POD 17 to node 28
+2021-09-02T21:57:02	Finding nearest available AGV ...
+2021-09-02T21:57:02	Shortest Distance from 27 to 36: 2
+2021-09-02T21:57:02	Select nearest AGV 1 which is 2 away from POD 17
+2021-09-02T21:57:02	Found best route which distance is: 2
+2021-09-02T21:57:02	Route path is: 27 <-  26 <- 36
+2021-09-02T21:57:02	Found best route which distance is: 1
+2021-09-02T21:57:02	Route path is: 28 <- 27
+2021-09-02T21:57:12	17_27  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:57:12	Received request carrying POD 17 to node 27
+2021-09-02T21:57:12	Finding nearest available AGV ...
+2021-09-02T21:57:12	Shortest Distance from 27 to 36: 2
+2021-09-02T21:57:12	Select nearest AGV 1 which is 2 away from POD 17
+2021-09-02T21:57:12	Found best route which distance is: 2
+2021-09-02T21:57:12	Route path is: 27 <-  26 <- 36
+2021-09-02T21:57:12	Found best route which distance is: 0
+2021-09-02T21:57:12	Route path is:27
+2021-09-02T21:57:19	9_58  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:57:19	Received request carrying POD 9 to node 58
+2021-09-02T21:57:19	Finding nearest available AGV ...
+2021-09-02T21:57:19	Shortest Distance from 71 to 36: 9
+2021-09-02T21:57:19	Select nearest AGV 1 which is 9 away from POD 9
+2021-09-02T21:57:19	Found best route which distance is: 9
+2021-09-02T21:57:19	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-09-02T21:57:19	Found best route which distance is: 9
+2021-09-02T21:57:19	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-09-02T21:57:25	9_58  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:57:25	Received request carrying POD 9 to node 58
+2021-09-02T21:57:25	Finding nearest available AGV ...
+2021-09-02T21:57:25	Shortest Distance from 71 to 36: 9
+2021-09-02T21:57:25	Select nearest AGV 1 which is 9 away from POD 9
+2021-09-02T21:57:25	Found best route which distance is: 9
+2021-09-02T21:57:25	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-09-02T21:57:25	Found best route which distance is: 9
+2021-09-02T21:57:25	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-09-02T21:58:58	17_28  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:58:58	Received request carrying POD 17 to node 28
+2021-09-02T21:58:58	Finding nearest available AGV ...
+2021-09-02T21:58:58	Shortest Distance from 27 to 36: 2
+2021-09-02T21:58:58	Select nearest AGV 1 which is 2 away from POD 17
+2021-09-02T21:58:58	Found best route which distance is: 2
+2021-09-02T21:58:58	Route path is: 27 <-  26 <- 36
+2021-09-02T21:58:58	Found best route which distance is: 1
+2021-09-02T21:58:58	Route path is: 28 <- 27
+2021-09-02T21:59:06	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:06	Received request carrying POD 12 to node 18
+2021-09-02T21:59:06	Finding nearest available AGV ...
+2021-09-02T21:59:06	Shortest Distance from 11 to 36: 9
+2021-09-02T21:59:06	Select nearest AGV 1 which is 9 away from POD 12
+2021-09-02T21:59:06	Found best route which distance is: 9
+2021-09-02T21:59:06	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-02T21:59:06	Found best route which distance is: 19
+2021-09-02T21:59:06	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-09-02T21:59:27	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:27	Received request carrying POD 12 to node 18
+2021-09-02T21:59:27	Finding nearest available AGV ...
+2021-09-02T21:59:27	Shortest Distance from 11 to 36: 9
+2021-09-02T21:59:27	Select nearest AGV 1 which is 9 away from POD 12
+2021-09-02T21:59:27	Found best route which distance is: 9
+2021-09-02T21:59:27	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-02T21:59:27	Found best route which distance is: 19
+2021-09-02T21:59:27	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-09-02T21:59:30	12_18  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:30	Received request carrying POD 12 to node 18
+2021-09-02T21:59:30	Finding nearest available AGV ...
+2021-09-02T21:59:30	Shortest Distance from 11 to 36: 9
+2021-09-02T21:59:30	Select nearest AGV 1 which is 9 away from POD 12
+2021-09-02T21:59:30	Found best route which distance is: 9
+2021-09-02T21:59:30	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-02T21:59:30	Found best route which distance is: 19
+2021-09-02T21:59:30	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-09-02T21:59:30	ab02220116305947701299  on topic: agvHandler
+
+2021-09-02T21:59:30	Recieved login command : ab02220116305947701299
+2021-09-02T21:59:30	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:30	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-02T21:59:34	17_28  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:34	Received request carrying POD 17 to node 28
+2021-09-02T21:59:34	Finding nearest available AGV ...
+2021-09-02T21:59:34	Shortest Distance from 27 to 36: 2
+2021-09-02T21:59:34	Select nearest AGV 1 which is 2 away from POD 17
+2021-09-02T21:59:34	Found best route which distance is: 2
+2021-09-02T21:59:34	Route path is: 27 <-  26 <- 36
+2021-09-02T21:59:34	Found best route which distance is: 1
+2021-09-02T21:59:34	Route path is: 28 <- 27
+2021-09-02T21:59:40	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:40	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-02T21:59:42	17_27  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:42	Received request carrying POD 17 to node 27
+2021-09-02T21:59:42	Finding nearest available AGV ...
+2021-09-02T21:59:42	Shortest Distance from 27 to 36: 2
+2021-09-02T21:59:42	Select nearest AGV 1 which is 2 away from POD 17
+2021-09-02T21:59:42	Found best route which distance is: 2
+2021-09-02T21:59:42	Route path is: 27 <-  26 <- 36
+2021-09-02T21:59:42	Found best route which distance is: 0
+2021-09-02T21:59:42	Route path is:27
+2021-09-02T21:59:47	9_58  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:47	Received request carrying POD 9 to node 58
+2021-09-02T21:59:47	Finding nearest available AGV ...
+2021-09-02T21:59:47	Shortest Distance from 71 to 36: 9
+2021-09-02T21:59:47	Select nearest AGV 1 which is 9 away from POD 9
+2021-09-02T21:59:47	Found best route which distance is: 9
+2021-09-02T21:59:47	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-09-02T21:59:47	Found best route which distance is: 9
+2021-09-02T21:59:47	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-09-02T21:59:50	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-02T21:59:50	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68

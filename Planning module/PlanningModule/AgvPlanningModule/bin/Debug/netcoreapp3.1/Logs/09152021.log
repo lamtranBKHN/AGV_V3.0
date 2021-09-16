@@ -1,0 +1,626 @@
+
+2021-09-15T22:18:53				--------------------------------
+2021-09-15T22:18:53	Starting planning module ...
+2021-09-15T22:18:55	Connecting to AGV 1 ...
+2021-09-15T22:18:55	Done
+2021-09-15T22:18:55	Connecting to AGV 2 ...
+2021-09-15T22:18:55	Done
+2021-09-15T22:18:55	Connecting to AGV 3 ...
+2021-09-15T22:18:55	Done
+2021-09-15T22:18:55	Connecting to AGV 4 ...
+2021-09-15T22:18:55	Done
+2021-09-15T22:18:55	Planning module is running...
+2021-09-15T22:19:04	19_57  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:19:04	Received request carrying POD 19 to node 57
+2021-09-15T22:19:04	Finding nearest available AGV ...
+2021-09-15T22:19:04	There is no available AGV at the moment. Please try again later.
+2021-09-15T22:20:12	19_67  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:20:12	Received request carrying POD 19 to node 67
+2021-09-15T22:20:12	Finding nearest available AGV ...
+2021-09-15T22:20:12	Shortest Distance from 22 to 36: 9
+2021-09-15T22:20:12	Shortest Distance from 22 to 85: 9
+2021-09-15T22:20:12	Shortest Distance from 22 to 32: 1
+2021-09-15T22:20:12	Select nearest AGV 3 which is 1 away from POD 19
+2021-09-15T22:20:12	Found best route which distance is: 1
+2021-09-15T22:20:12	Route path is: 22 <- 32
+2021-09-15T22:20:12	Found best route which distance is: 9
+2021-09-15T22:20:12	Route path is: 67 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <- 22
+2021-09-15T22:21:18	17_27  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:21:18	Received request carrying POD 17 to node 27
+2021-09-15T22:21:18	Finding nearest available AGV ...
+2021-09-15T22:21:18	Shortest Distance from 27 to 36: 2
+2021-09-15T22:21:18	Shortest Distance from 27 to 85: 8
+2021-09-15T22:21:18	Select nearest AGV 1 which is 2 away from POD 17
+2021-09-15T22:21:18	Found best route which distance is: 2
+2021-09-15T22:21:18	Route path is: 27 <-  26 <- 36
+2021-09-15T22:21:18	Found best route which distance is: 0
+2021-09-15T22:21:18	Route path is:27
+2021-09-15T22:25:51	ab02220116317195501299  on topic: agvHandler
+
+2021-09-15T22:25:51	Recieved login command : ab02220116317195501299
+2021-09-15T22:25:51	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:25:51	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-15T22:26:01	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:26:01	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-15T22:26:11	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:26:11	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-15T22:26:25	3_77  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:26:25	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 144
+2021-09-15T22:26:25	Received request carrying POD 3 to node 77
+2021-09-15T22:26:25	Finding nearest available AGV ...
+2021-09-15T22:26:25	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 144
+2021-09-15T22:26:25	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 144
+2021-09-15T22:26:25	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:26	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-15T22:26:26	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:26	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-15T22:26:26	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:26	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-15T22:26:26	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:26	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-15T22:26:26	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:26	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-15T22:26:26	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:26	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-15T22:26:26	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:27	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-15T22:26:27	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:27	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-15T22:26:27	System.Collections.Generic.KeyNotFoundException: The given key '36' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at AgvPlanningModule.PathFinding.FindShortestDistance(Int32 start_node, Int32 end_node) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/PathFinding.cs:line 314
+2021-09-15T22:26:27	Select nearest AGV 1 which is 2147483647 away from POD 3
+2021-09-15T22:26:27	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:27	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-15T22:26:27	System.Collections.Generic.KeyNotFoundException: The given key '55' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at AgvPlanningModule.PathFinding.FindRoute(Int32 start_node, Int32 end_node, Boolean safetyMode) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/PathFinding.cs:line 152
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 100
+
+2021-09-15T22:26:54				--------------------------------
+2021-09-15T22:26:54	Starting planning module ...
+2021-09-15T22:26:55	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 144
+2021-09-15T22:26:55	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:55	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-15T22:26:55	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:55	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-15T22:26:55	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:55	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-15T22:26:55	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:55	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-15T22:26:55	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:55	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-15T22:26:55	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:55	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-15T22:26:56	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:56	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-15T22:26:56	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 144
+2021-09-15T22:26:56	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:56	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-15T22:26:56	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:56	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-15T22:26:56	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:56	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-15T22:26:56	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:56	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-15T22:26:56	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:56	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-15T22:26:56	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-15T22:26:57	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-15T22:26:57	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 144
+2021-09-15T22:26:57	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-15T22:26:57	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-15T22:26:57	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-15T22:26:57	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:57	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-15T22:26:57	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-15T22:26:58	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-15T22:26:58	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-15T22:26:58	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-15T22:26:58	System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 144
+2021-09-15T22:26:58	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateBarrier() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 178
+2021-09-15T22:26:58	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:58	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateCharger() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 205
+2021-09-15T22:26:58	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMap() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 241
+2021-09-15T22:26:59	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdatePod() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 283
+2021-09-15T22:26:59	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateStation() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 313
+2021-09-15T22:26:59	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateWaitingZone() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 345
+2021-09-15T22:26:59	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateMapSize() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 377
+2021-09-15T22:26:59	MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 98
+2021-09-15T22:26:59	System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgvPlanningModule.Database.UpdateAgv() in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/Database.cs:line 134
+2021-09-15T22:26:59	Planning module is running...
+
+2021-09-15T22:27:11				--------------------------------
+2021-09-15T22:27:11	Starting planning module ...
+2021-09-15T22:27:12	Connecting to AGV 1 ...
+2021-09-15T22:27:12	Done
+2021-09-15T22:27:12	Connecting to AGV 2 ...
+2021-09-15T22:27:12	Done
+2021-09-15T22:27:12	Connecting to AGV 3 ...
+2021-09-15T22:27:12	Done
+2021-09-15T22:27:12	Connecting to AGV 4 ...
+2021-09-15T22:27:12	Done
+2021-09-15T22:27:12	Planning module is running...
+2021-09-15T22:27:17	3_78  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:27:17	Received request carrying POD 3 to node 78
+2021-09-15T22:27:17	Finding nearest available AGV ...
+2021-09-15T22:27:17	Shortest Distance from 55 to 36: 3
+2021-09-15T22:27:17	Select nearest AGV 1 which is 3 away from POD 3
+2021-09-15T22:27:17	Found best route which distance is: 3
+2021-09-15T22:27:17	Route path is: 55 <-  56 <-  46 <- 36
+2021-09-15T22:27:17	Found best route which distance is: 5
+2021-09-15T22:27:17	Route path is: 78 <-  77 <-  67 <-  66 <-  56 <- 55
+2021-09-15T22:27:43	ab02220116317196631299  on topic: agvHandler
+
+2021-09-15T22:27:43	Recieved login command : ab02220116317196631299
+2021-09-15T22:27:43	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:27:44	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-15T22:27:53	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:27:53	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-15T22:28:03	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:28:03	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-15T22:28:11	3_77  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:28:11	Received request carrying POD 3 to node 77
+2021-09-15T22:28:11	Finding nearest available AGV ...
+2021-09-15T22:28:11	Shortest Distance from 55 to 36: 3
+2021-09-15T22:28:11	Select nearest AGV 1 which is 3 away from POD 3
+2021-09-15T22:28:11	Found best route which distance is: 3
+2021-09-15T22:28:11	Route path is: 55 <-  56 <-  46 <- 36
+2021-09-15T22:28:11	Found best route which distance is: 4
+2021-09-15T22:28:11	Route path is: 77 <-  76 <-  66 <-  65 <- 55
+2021-09-15T22:28:44	14_2  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:28:44	Received request carrying POD 14 to node 2
+2021-09-15T22:28:44	Finding nearest available AGV ...
+2021-09-15T22:28:44	There is no available AGV at the moment. Please try again later.
+2021-09-15T22:29:08	14_1  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:29:08	Received request carrying POD 14 to node 1
+2021-09-15T22:29:08	Finding nearest available AGV ...
+2021-09-15T22:29:08	Shortest Distance from 15 to 36: 3
+2021-09-15T22:29:08	Select nearest AGV 1 which is 3 away from POD 14
+2021-09-15T22:29:08	Found best route which distance is: 3
+2021-09-15T22:29:08	Route path is: 15 <-  16 <-  26 <- 36
+2021-09-15T22:29:08	Found best route which distance is: 5
+2021-09-15T22:29:08	Route path is: 1 <-  2 <-  3 <-  4 <-  5 <- 15
+2021-09-15T22:29:37	14_2  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:29:37	Received request carrying POD 14 to node 2
+2021-09-15T22:29:37	Finding nearest available AGV ...
+2021-09-15T22:29:37	There is no available AGV at the moment. Please try again later.
+2021-09-15T22:29:51	14_1  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:29:51	Received request carrying POD 14 to node 1
+2021-09-15T22:29:51	Finding nearest available AGV ...
+2021-09-15T22:29:51	Shortest Distance from 15 to 85: 13
+2021-09-15T22:29:51	Shortest Distance from 15 to 32: 7
+2021-09-15T22:29:51	Select nearest AGV 3 which is 7 away from POD 14
+2021-09-15T22:29:51	Found best route which distance is: 7
+2021-09-15T22:29:51	Route path is: 15 <-  5 <-  4 <-  3 <-  13 <-  23 <-  33 <- 32
+2021-09-15T22:29:51	Found best route which distance is: 5
+2021-09-15T22:29:51	Route path is: 1 <-  2 <-  3 <-  4 <-  5 <- 15
+2021-09-15T22:30:13	14_1  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:30:13	Received request carrying POD 14 to node 1
+2021-09-15T22:30:13	Finding nearest available AGV ...
+2021-09-15T22:30:13	There is no available AGV at the moment. Please try again later.
+2021-09-15T22:30:50	14_1  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:30:50	Received request carrying POD 14 to node 1
+2021-09-15T22:30:50	Finding nearest available AGV ...
+2021-09-15T22:30:50	Shortest Distance from 15 to 36: 3
+2021-09-15T22:30:50	Select nearest AGV 1 which is 3 away from POD 14
+2021-09-15T22:30:50	Found best route which distance is: 3
+2021-09-15T22:30:50	Route path is: 15 <-  16 <-  26 <- 36
+2021-09-15T22:30:50	Found best route which distance is: 5
+2021-09-15T22:30:50	Route path is: 1 <-  2 <-  3 <-  4 <-  5 <- 15
+2021-09-15T22:31:54	14_1  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:31:54	Received request carrying POD 14 to node 1
+2021-09-15T22:31:54	Finding nearest available AGV ...
+2021-09-15T22:31:54	Shortest Distance from 15 to 36: 3
+2021-09-15T22:31:54	Select nearest AGV 1 which is 3 away from POD 14
+2021-09-15T22:31:54	Found best route which distance is: 3
+2021-09-15T22:31:54	Route path is: 15 <-  16 <-  26 <- 36
+2021-09-15T22:31:54	Found best route which distance is: 5
+2021-09-15T22:31:54	Route path is: 1 <-  2 <-  3 <-  4 <-  5 <- 15
+2021-09-15T22:32:31	ab02220116317199511299  on topic: agvHandler
+
+2021-09-15T22:32:31	Recieved login command : ab02220116317199511299
+2021-09-15T22:32:31	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:32:32	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-15T22:32:41	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:32:42	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68
+2021-09-15T22:32:44	14_4  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:32:44	Received request carrying POD 14 to node 4
+2021-09-15T22:32:44	Finding nearest available AGV ...
+2021-09-15T22:32:44	Shortest Distance from 15 to 36: 3
+2021-09-15T22:32:44	Select nearest AGV 1 which is 3 away from POD 14
+2021-09-15T22:32:44	Found best route which distance is: 3
+2021-09-15T22:32:44	Route path is: 15 <-  16 <-  26 <- 36
+2021-09-15T22:32:44	Found best route which distance is: 2
+2021-09-15T22:32:44	Route path is: 4 <-  5 <- 15
+2021-09-15T22:32:52	UPDATE_AGV_LOGIN  on topic: dashboardPodCarryingRequest
+
+2021-09-15T22:32:52	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.AgvController.handleCarryPodRequest(Object sender, MqttMsgPublishEventArgs e) in /Volumes/MacOS_Data/AGV/AGV_3.0_source_code_2021/PlanningModule/AgvPlanningModule/AgvController.cs:line 68

@@ -1,0 +1,283 @@
+
+2021-04-26T00:05:26				--------------------------------
+2021-04-26T00:05:26	Starting planning module ...
+2021-04-26T00:05:28	Connecting to AGV 1 ...
+2021-04-26T00:05:28	Done
+2021-04-26T00:05:28	Connecting to AGV 2 ...
+2021-04-26T00:05:28	Done
+2021-04-26T00:05:28	Connecting to AGV 3 ...
+2021-04-26T00:05:28	Done
+2021-04-26T00:05:28	Connecting to AGV 4 ...
+2021-04-26T00:05:28	Done
+2021-04-26T00:05:28	Planning module is running...
+2021-04-26T00:05:38	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-26T00:05:38	Received request carrying POD 12 to node 18
+2021-04-26T00:05:38	Finding nearest available AGV ...
+2021-04-26T00:05:38	Shortest Distance from 11 to 36: 9
+2021-04-26T00:05:38	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-26T00:05:38	Found best route which distance is: 9
+2021-04-26T00:05:38	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-26T00:05:38	Found best route which distance is: 19
+2021-04-26T00:05:38	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-26T00:07:54	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-26T00:07:54	Received request carrying POD 12 to node 18
+2021-04-26T00:07:54	Finding nearest available AGV ...
+2021-04-26T00:07:54	Shortest Distance from 11 to 36: 9
+2021-04-26T00:07:54	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-26T00:07:54	Found best route which distance is: 9
+2021-04-26T00:07:54	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-26T00:07:54	Found best route which distance is: 19
+2021-04-26T00:07:54	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-26T00:08:30	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-26T00:08:30	Received request carrying POD 12 to node 18
+2021-04-26T00:08:30	Finding nearest available AGV ...
+2021-04-26T00:08:30	Shortest Distance from 11 to 36: 9
+2021-04-26T00:08:30	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-26T00:08:30	Found best route which distance is: 9
+2021-04-26T00:08:30	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-26T00:08:30	Found best route which distance is: 19
+2021-04-26T00:08:30	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-26T00:09:08	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-26T00:09:08	Received request carrying POD 12 to node 18
+2021-04-26T00:09:08	Finding nearest available AGV ...
+2021-04-26T00:09:08	Shortest Distance from 11 to 36: 9
+2021-04-26T00:09:08	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-26T00:09:08	Found best route which distance is: 9
+2021-04-26T00:09:08	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-26T00:09:08	Found best route which distance is: 19
+2021-04-26T00:09:08	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-26T00:09:44	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-26T00:09:44	Received request carrying POD 12 to node 18
+2021-04-26T00:09:44	Finding nearest available AGV ...
+2021-04-26T00:09:44	Shortest Distance from 11 to 36: 9
+2021-04-26T00:09:44	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-26T00:09:44	Found best route which distance is: 9
+2021-04-26T00:09:44	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-26T00:09:44	Found best route which distance is: 19
+2021-04-26T00:09:44	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-26T00:10:18	11_68  on topic: dashboardPodCarryingRequest
+
+2021-04-26T00:10:18	Received request carrying POD 11 to node 68
+2021-04-26T00:10:18	Finding nearest available AGV ...
+2021-04-26T00:10:19	Shortest Distance from 72 to 36: 8
+2021-04-26T00:10:19	Select nearest AGV 1 which is 8 away from POD 11
+2021-04-26T00:10:19	Found best route which distance is: 8
+2021-04-26T00:10:19	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-04-26T00:10:19	Found best route which distance is: 7
+2021-04-26T00:10:19	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+
+2021-04-26T13:39:07				--------------------------------
+2021-04-26T13:39:08	Starting planning module ...
+
+2021-04-26T13:41:02				--------------------------------
+2021-04-26T13:41:02	Starting planning module ...
+
+2021-04-26T13:41:40				--------------------------------
+2021-04-26T13:41:40	Starting planning module ...
+
+2021-04-26T13:44:38				--------------------------------
+2021-04-26T13:44:38	Starting planning module ...
+
+2021-04-26T13:45:15				--------------------------------
+
+2021-04-26T13:48:43				--------------------------------
+2021-04-26T13:48:46	Starting planning module ...
+
+2021-04-26T13:57:25				--------------------------------
+2021-04-26T13:57:25	Starting planning module ...
+
+2021-04-26T13:58:47				--------------------------------
+2021-04-26T13:58:47	Starting planning module ...
+
+2021-04-26T23:33:03				--------------------------------
+2021-04-26T23:33:04	Starting planning module ...
+
+2021-04-26T23:33:40				--------------------------------
+2021-04-26T23:33:40	Starting planning module ...
+
+2021-04-26T23:36:33				--------------------------------
+2021-04-26T23:36:33	Starting planning module ...
+2021-04-26T23:36:34	Connecting to AGV 1 ...
+2021-04-26T23:36:34	Done
+2021-04-26T23:36:34	Connecting to AGV 2 ...
+2021-04-26T23:36:34	Done
+2021-04-26T23:36:34	Connecting to AGV 3 ...
+2021-04-26T23:36:34	Done
+2021-04-26T23:36:34	Connecting to AGV 4 ...
+2021-04-26T23:36:34	Done
+2021-04-26T23:36:34	Planning module is running...
+
+2021-04-26T23:36:45				--------------------------------
+2021-04-26T23:36:45	Starting planning module ...
+2021-04-26T23:36:46	Connecting to AGV 1 ...
+2021-04-26T23:36:46	Done
+2021-04-26T23:36:46	Connecting to AGV 2 ...
+2021-04-26T23:36:46	Done
+2021-04-26T23:36:46	Connecting to AGV 3 ...
+2021-04-26T23:36:46	Done
+2021-04-26T23:36:46	Connecting to AGV 4 ...
+2021-04-26T23:36:46	Done
+2021-04-26T23:36:46	Planning module is running...
+
+2021-04-26T23:38:10				--------------------------------
+2021-04-26T23:38:10	Starting planning module ...
+
+2021-04-26T23:39:26				--------------------------------
+2021-04-26T23:39:26	Starting planning module ...
+2021-04-26T23:39:27	Connecting to AGV 1 ...
+2021-04-26T23:39:27	Done
+2021-04-26T23:39:27	Connecting to AGV 2 ...
+2021-04-26T23:39:27	Done
+2021-04-26T23:39:27	Connecting to AGV 3 ...
+2021-04-26T23:39:27	Done
+2021-04-26T23:39:27	Connecting to AGV 4 ...
+2021-04-26T23:39:27	Done
+2021-04-26T23:39:27	Planning module is running...
+
+2021-04-26T23:50:40				--------------------------------
+2021-04-26T23:50:40	Starting planning module ...
+2021-04-26T23:50:41	MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host '192.168.1.68' for user '192.168.1.68' using method 'mysql_native_password' failed with message: Access denied for user '192.168.1.68'@'192.168.1.27' (using password: YES)
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '192.168.1.68'@'192.168.1.27' (using password: YES)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 73
+   at AgvPlanningModule.Database..ctor() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 42
+2021-04-26T23:50:42	MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host '192.168.1.68' for user '192.168.1.68' using method 'mysql_native_password' failed with message: Access denied for user '192.168.1.68'@'192.168.1.27' (using password: YES)
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '192.168.1.68'@'192.168.1.27' (using password: YES)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 73
+   at AgvPlanningModule.Database..ctor() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 42
+2021-04-26T23:50:42	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 88
+   at AgvPlanningModule.Database.UpdateAgv() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 116
+2021-04-26T23:50:42	Planning module is running...
+
+2021-04-26T23:51:01				--------------------------------
+2021-04-26T23:51:01	Starting planning module ...
+
+2021-04-26T23:51:23				--------------------------------
+2021-04-26T23:51:23	Starting planning module ...
+2021-04-26T23:51:24	Connecting to AGV 1 ...
+2021-04-26T23:51:24	Done
+2021-04-26T23:51:24	Connecting to AGV 2 ...
+2021-04-26T23:51:24	Done
+2021-04-26T23:51:24	Connecting to AGV 3 ...
+2021-04-26T23:51:24	Done
+2021-04-26T23:51:24	Connecting to AGV 4 ...
+2021-04-26T23:51:24	Done
+2021-04-26T23:51:24	Planning module is running...
+
+2021-04-26T23:53:03				--------------------------------
+2021-04-26T23:53:03	Starting planning module ...
+2021-04-26T23:53:04	Connecting to AGV 1 ...
+2021-04-26T23:53:04	Done
+2021-04-26T23:53:04	Connecting to AGV 2 ...
+2021-04-26T23:53:04	Done
+2021-04-26T23:53:04	Connecting to AGV 3 ...
+2021-04-26T23:53:04	Done
+2021-04-26T23:53:04	Connecting to AGV 4 ...
+2021-04-26T23:53:04	Done
+2021-04-26T23:53:04	Planning module is running...
+
+2021-04-26T23:53:46				--------------------------------
+2021-04-26T23:53:46	Starting planning module ...
+2021-04-26T23:53:49	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. 127.0.0.1:3306)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 73
+   at AgvPlanningModule.Database..ctor() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 42
+2021-04-26T23:53:51	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. 127.0.0.1:3306)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 73
+   at AgvPlanningModule.Database..ctor() in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 42
+
+2021-04-26T23:53:57				--------------------------------
+2021-04-26T23:53:57	Starting planning module ...
+2021-04-26T23:53:58	Connecting to AGV 1 ...
+2021-04-26T23:53:58	Done
+2021-04-26T23:53:58	Connecting to AGV 2 ...
+2021-04-26T23:53:58	Done
+2021-04-26T23:53:58	Connecting to AGV 3 ...
+2021-04-26T23:53:58	Done
+2021-04-26T23:53:58	Connecting to AGV 4 ...
+2021-04-26T23:53:59	Done
+2021-04-26T23:53:59	Planning module is running...

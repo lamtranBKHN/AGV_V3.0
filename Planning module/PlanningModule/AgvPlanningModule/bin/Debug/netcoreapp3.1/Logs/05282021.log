@@ -1,0 +1,50 @@
+
+2021-05-28T09:39:15				--------------------------------
+2021-05-28T09:39:15	Starting planning module ...
+
+2021-05-28T12:19:02				--------------------------------
+2021-05-28T12:19:02	Starting planning module ...
+2021-05-28T12:19:07	MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. 10.116.42.133:3306)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 10.116.42.133:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AgvPlanningModule.Database.IsConnect() in C:\Users\lamtd\Desktop\PJ\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 75
+2021-05-28T12:19:07	System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AgvPlanningModule.Database.GetData(String query) in C:\Users\lamtd\Desktop\PJ\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\Database.cs:line 98
+
+2021-05-28T12:26:51				--------------------------------
+2021-05-28T12:26:53	Starting planning module ...
+2021-05-28T12:26:55	Connecting to AGV 1 ...
+2021-05-28T12:26:55	Done
+2021-05-28T12:26:55	Connecting to AGV 2 ...
+2021-05-28T12:26:55	Done
+2021-05-28T12:26:55	Connecting to AGV 3 ...
+2021-05-28T12:26:55	Done
+2021-05-28T12:26:55	Connecting to AGV 4 ...
+2021-05-28T12:26:55	Done
+2021-05-28T12:26:55	Planning module is running...

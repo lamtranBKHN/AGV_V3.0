@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{C2979FA7-FA25-48A4-BF30-82A97C0D565A}|Default">
+  <MonoDevelop.Ide.ItemProperties.AgvPlanningModule PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AgvPlanningModule/PathFinding.cs">
+    <Files>
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/3.1.118/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="234" Column="5" />
+      <File FileName="AgvPlanningModule/appsettings.json" Line="1" Column="1" />
+      <File FileName="AgvPlanningModule/DataType/Pod.cs" />
+      <File FileName="AgvPlanningModule/Database.cs" Line="297" Column="53" />
+      <File FileName="AgvPlanningModule/DataType/WaitingZone.cs" />
+      <File FileName="AgvPlanningModule/DataProcessing.cs" Line="1" Column="1" />
+      <File FileName="AgvPlanningModule/AgvCommunication.cs" Line="1" Column="1" />
+      <File FileName="AgvPlanningModule/Logging.cs" Line="1" Column="1" />
+      <File FileName="AgvPlanningModule/PackageDataCommand.cs" Line="1" Column="1" />
+      <File FileName="AgvPlanningModule/PathFinding.cs" Line="1" Column="1" />
+      <File FileName="AgvPlanningModule/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AgvPlanningModule" expanded="True">
+            <Node name="AgvPlanningModule" expanded="True">
+              <Node name="PathFinding.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

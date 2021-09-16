@@ -1,0 +1,37 @@
+
+2021-09-05T00:00:19				--------------------------------
+2021-09-05T00:00:19	Starting planning module ...
+2021-09-05T00:00:21	Connecting to AGV 1 ...
+2021-09-05T00:00:21	Done
+2021-09-05T00:00:21	Connecting to AGV 2 ...
+2021-09-05T00:00:21	Done
+2021-09-05T00:00:21	Connecting to AGV 3 ...
+2021-09-05T00:00:21	Done
+2021-09-05T00:00:21	Connecting to AGV 4 ...
+2021-09-05T00:00:21	Done
+2021-09-05T00:00:21	Planning module is running...
+2021-09-05T00:00:28	15_63  on topic: dashboardPodCarryingRequest
+
+2021-09-05T00:00:28	Received request carrying POD 15 to node 63
+2021-09-05T00:00:28	Finding nearest available AGV ...
+2021-09-05T00:00:28	Shortest Distance from 14 to 36: 6
+2021-09-05T00:00:28	Select nearest AGV 1 which is 6 away from POD 15
+2021-09-05T00:00:28	Found best route which distance is: 6
+2021-09-05T00:00:28	Route path is: 14 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-09-05T00:00:28	Found best route which distance is: 6
+2021-09-05T00:00:28	Route path is: 63 <-  53 <-  43 <-  33 <-  23 <-  13 <- 14
+2021-09-05T00:00:40	17_78  on topic: dashboardPodCarryingRequest
+
+2021-09-05T00:00:40	Received request carrying POD 17 to node 78
+2021-09-05T00:00:40	Finding nearest available AGV ...
+2021-09-05T00:00:40	There is no available AGV at the moment. Please try again later.
+2021-09-05T00:00:48	10_28  on topic: dashboardPodCarryingRequest
+
+2021-09-05T00:00:48	Received request carrying POD 10 to node 28
+2021-09-05T00:00:48	Finding nearest available AGV ...
+2021-09-05T00:00:48	There is no available AGV at the moment. Please try again later.
+2021-09-05T00:00:57	17_67  on topic: dashboardPodCarryingRequest
+
+2021-09-05T00:00:57	Received request carrying POD 17 to node 67
+2021-09-05T00:00:57	Finding nearest available AGV ...
+2021-09-05T00:00:57	There is no available AGV at the moment. Please try again later.

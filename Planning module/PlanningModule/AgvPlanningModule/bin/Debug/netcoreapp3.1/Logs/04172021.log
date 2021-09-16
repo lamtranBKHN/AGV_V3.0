@@ -1,0 +1,2129 @@
+
+2021-04-17T15:52:45				--------------------------------
+2021-04-17T15:52:45	Starting planning module ...
+2021-04-17T15:52:46	Connecting to AGV 1 ...
+2021-04-17T15:52:46	Done
+2021-04-17T15:52:46	Connecting to AGV 2 ...
+2021-04-17T15:52:46	Done
+2021-04-17T15:52:46	Connecting to AGV 3 ...
+2021-04-17T15:52:46	Done
+2021-04-17T15:52:46	Connecting to AGV 4 ...
+2021-04-17T15:52:46	Done
+2021-04-17T15:52:46	Planning module is running...
+2021-04-17T15:52:49	ab0330011618649569990470C842F76C8199  on topic: agvHandler
+
+2021-04-17T15:52:49	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T15:52:53	ab0330011618649573990470C842F76C8199  on topic: agvHandler
+
+2021-04-17T15:52:54	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+
+2021-04-17T15:53:04				--------------------------------
+2021-04-17T15:53:04	Starting planning module ...
+2021-04-17T15:53:05	Connecting to AGV 1 ...
+2021-04-17T15:53:05	Done
+2021-04-17T15:53:05	Connecting to AGV 2 ...
+2021-04-17T15:53:05	Done
+2021-04-17T15:53:05	Connecting to AGV 3 ...
+2021-04-17T15:53:05	Done
+2021-04-17T15:53:05	Connecting to AGV 4 ...
+2021-04-17T15:53:05	Done
+2021-04-17T15:53:05	Planning module is running...
+2021-04-17T15:53:07	ab0330011618649587990470C842F76C8199  on topic: agvHandler
+
+2021-04-17T15:53:07	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T15:53:12	ab0330011618649592990470C842F76C8199  on topic: agvHandler
+
+
+2021-04-17T17:08:03				--------------------------------
+2021-04-17T17:08:03	Starting planning module ...
+2021-04-17T17:08:04	Connecting to AGV 1 ...
+2021-04-17T17:08:04	Done
+2021-04-17T17:08:04	Connecting to AGV 2 ...
+2021-04-17T17:08:04	Done
+2021-04-17T17:08:04	Connecting to AGV 3 ...
+2021-04-17T17:08:04	Done
+2021-04-17T17:08:04	Connecting to AGV 4 ...
+2021-04-17T17:08:04	Done
+2021-04-17T17:08:04	Planning module is running...
+
+2021-04-17T17:13:50				--------------------------------
+2021-04-17T17:13:50	Starting planning module ...
+2021-04-17T17:13:51	Connecting to AGV 1 ...
+2021-04-17T17:13:51	Done
+2021-04-17T17:13:51	Connecting to AGV 2 ...
+2021-04-17T17:13:51	Done
+2021-04-17T17:13:51	Connecting to AGV 3 ...
+2021-04-17T17:13:51	Done
+2021-04-17T17:13:51	Connecting to AGV 4 ...
+2021-04-17T17:13:51	Done
+2021-04-17T17:13:51	Planning module is running...
+2021-04-17T17:14:15	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-17T17:14:18	Received request carrying POD 12 to node 18
+2021-04-17T17:14:18	Finding nearest available AGV ...
+2021-04-17T17:14:18	Shortest Distance from 11 to 36: 9
+2021-04-17T17:14:18	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-17T17:14:18	Found best route which distance is: 9
+2021-04-17T17:14:18	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-17T17:14:18	Found best route which distance is: 19
+2021-04-17T17:14:18	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+
+2021-04-17T17:18:45				--------------------------------
+2021-04-17T17:18:45	Starting planning module ...
+2021-04-17T17:18:46	Connecting to AGV 1 ...
+2021-04-17T17:18:46	Done
+2021-04-17T17:18:46	Connecting to AGV 2 ...
+2021-04-17T17:18:46	Done
+2021-04-17T17:18:46	Connecting to AGV 3 ...
+2021-04-17T17:18:46	Done
+2021-04-17T17:18:46	Connecting to AGV 4 ...
+2021-04-17T17:18:46	Done
+2021-04-17T17:18:46	Planning module is running...
+2021-04-17T17:19:26	ab01280116186547630470C842F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab0128011618654767047BC942F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab0128011618654769047FC942F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab0128011618654773046CC842F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab01280116186547750467C842F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab01280116186547790478C842F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab0128011618654781047AC942F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab01280116186547830474C842F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab0128011618654785047DCA42F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	ab01280116186547870481CA42F76C8199  on topic: agvHandler
+
+2021-04-17T17:20:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:20:08	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-17T17:20:08	Received request carrying POD 12 to node 18
+2021-04-17T17:20:08	Finding nearest available AGV ...
+2021-04-17T17:20:08	Shortest Distance from 11 to 36: 9
+2021-04-17T17:20:08	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-17T17:20:08	Found best route which distance is: 9
+2021-04-17T17:20:08	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-17T17:20:08	Found best route which distance is: 19
+2021-04-17T17:20:08	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-17T17:23:18	12_18  on topic: dashboardPodCarryingRequest
+
+2021-04-17T17:23:24	Received request carrying POD 12 to node 18
+2021-04-17T17:23:24	Finding nearest available AGV ...
+2021-04-17T17:23:24	Shortest Distance from 11 to 36: 9
+2021-04-17T17:23:24	Select nearest AGV 1 which is 9 away from POD 12
+2021-04-17T17:23:24	Found best route which distance is: 9
+2021-04-17T17:23:24	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-04-17T17:23:24	Found best route which distance is: 19
+2021-04-17T17:23:24	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-04-17T17:31:34	ab02220116186554931299  on topic: agvHandler
+
+2021-04-17T17:31:34	Recieved login command : ab02220116186554931299
+2021-04-17T17:33:53	ab022201231299  on topic: agvHandler
+
+2021-04-17T17:33:53	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:33:57	ab033001161865563799C3903C3699  on topic: agvHandler
+
+2021-04-17T17:33:57	Recieved heartbeat command : ab033001161865563799C3903C3699
+2021-04-17T17:34:01	ab033001161865564099C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:01	Recieved heartbeat command : ab033001161865564099C3903C3699
+2021-04-17T17:34:04	ab033001161865564499C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:04	Recieved heartbeat command : ab033001161865564499C3903C3699
+2021-04-17T17:34:10	ab033001161865564799C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:10	Recieved heartbeat command : ab033001161865564799C3903C3699
+2021-04-17T17:34:21	ab02220116186556611299  on topic: agvHandler
+
+2021-04-17T17:34:21	Recieved login command : ab02220116186556611299
+2021-04-17T17:34:25	ab033001161865566599C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:25	Recieved heartbeat command : ab033001161865566599C3903C3699
+2021-04-17T17:34:29	ab033001161865566899C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:29	Recieved heartbeat command : ab033001161865566899C3903C3699
+2021-04-17T17:34:33	ab033001161865567299C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:33	Recieved heartbeat command : ab033001161865567299C3903C3699
+2021-04-17T17:34:36	ab033001161865567599C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:36	Recieved heartbeat command : ab033001161865567599C3903C3699
+2021-04-17T17:34:40	ab033001161865567999C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:40	Recieved heartbeat command : ab033001161865567999C3903C3699
+2021-04-17T17:34:43	ab033001161865568299C3903C3699  on topic: agvHandler
+
+2021-04-17T17:34:43	Recieved heartbeat command : ab033001161865568299C3903C3699
+2021-04-17T17:35:20	ab022201141299  on topic: agvHandler
+
+2021-04-17T17:35:20	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:35:25	ab0330011899C3903C3699  on topic: agvHandler
+
+2021-04-17T17:35:25	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 82
+2021-04-17T17:35:28	ab033001161865572899C3903C3699  on topic: agvHandler
+
+2021-04-17T17:35:28	Recieved heartbeat command : ab033001161865572899C3903C3699
+2021-04-17T17:35:32	ab033001161865573199C3903C3699  on topic: agvHandler
+
+2021-04-17T17:35:32	Recieved heartbeat command : ab033001161865573199C3903C3699
+2021-04-17T17:35:36	ab033001161865573599C3903C3699  on topic: agvHandler
+
+2021-04-17T17:35:36	Recieved heartbeat command : ab033001161865573599C3903C3699
+2021-04-17T17:35:39	ab033001161865573899C3903C3699  on topic: agvHandler
+
+2021-04-17T17:35:39	Recieved heartbeat command : ab033001161865573899C3903C3699
+2021-04-17T17:36:42	ab02220116186558011299  on topic: agvHandler
+
+2021-04-17T17:36:42	Recieved login command : ab02220116186558011299
+2021-04-17T17:36:45	ab033001161865580599C3903C3699  on topic: agvHandler
+
+2021-04-17T17:36:45	Recieved heartbeat command : ab033001161865580599C3903C3699
+2021-04-17T17:36:49	ab033001161865580999C3903C3699  on topic: agvHandler
+
+2021-04-17T17:36:49	Recieved heartbeat command : ab033001161865580999C3903C3699
+2021-04-17T17:36:52	ab033001161865581299C3903C3699  on topic: agvHandler
+
+2021-04-17T17:36:52	Recieved heartbeat command : ab033001161865581299C3903C3699
+2021-04-17T17:36:56	ab033001161865581699C3903C3699  on topic: agvHandler
+
+2021-04-17T17:36:56	Recieved heartbeat command : ab033001161865581699C3903C3699
+2021-04-17T17:37:00	ab033001161865581999C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:00	Recieved heartbeat command : ab033001161865581999C3903C3699
+2021-04-17T17:37:03	ab033001161865582399C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:03	Recieved heartbeat command : ab033001161865582399C3903C3699
+2021-04-17T17:37:07	ab033001161865582699C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:07	Recieved heartbeat command : ab033001161865582699C3903C3699
+2021-04-17T17:37:10	ab033001161865583099C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:10	Recieved heartbeat command : ab033001161865583099C3903C3699
+2021-04-17T17:37:14	ab033001161865583399C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:14	Recieved heartbeat command : ab033001161865583399C3903C3699
+2021-04-17T17:37:17	ab033001161865583799C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:17	Recieved heartbeat command : ab033001161865583799C3903C3699
+2021-04-17T17:37:21	ab033001161865584099C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:21	Recieved heartbeat command : ab033001161865584099C3903C3699
+2021-04-17T17:37:24	ab033001161865584499C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:24	Recieved heartbeat command : ab033001161865584499C3903C3699
+2021-04-17T17:37:28	ab033001161865584899C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:28	Recieved heartbeat command : ab033001161865584899C3903C3699
+2021-04-17T17:37:31	ab033001161865585199C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:31	Recieved heartbeat command : ab033001161865585199C3903C3699
+2021-04-17T17:37:35	ab033001161865585599C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:35	Recieved heartbeat command : ab033001161865585599C3903C3699
+2021-04-17T17:37:39	ab033001161865585899C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:39	Recieved heartbeat command : ab033001161865585899C3903C3699
+2021-04-17T17:37:42	ab033001161865586299C3903C3699  on topic: agvHandler
+
+2021-04-17T17:37:42	Recieved heartbeat command : ab033001161865586299C3903C3699
+2021-04-17T17:38:10	ab02220171299  on topic: agvHandler
+
+2021-04-17T17:38:10	System.ArithmeticException: Recieved raw data is not in pairs.
+   at AgvPlanningModule.DataProcessing.ParseAgvDataIncomingCommandHeader(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 31
+
+2021-04-17T22:45:03				--------------------------------
+2021-04-17T22:45:03	Starting planning module ...
+2021-04-17T22:45:04	Connecting to AGV 1 ...
+2021-04-17T22:45:04	Done
+2021-04-17T22:45:04	Connecting to AGV 2 ...
+2021-04-17T22:45:04	Done
+2021-04-17T22:45:04	Connecting to AGV 3 ...
+2021-04-17T22:45:04	Done
+2021-04-17T22:45:04	Connecting to AGV 4 ...
+2021-04-17T22:45:04	Done
+2021-04-17T22:45:04	Planning module is running...
+2021-04-17T22:45:44	ab02220116186743431299  on topic: agvHandler
+
+2021-04-17T22:45:44	Recieved login command : ab02220116186743431299
+2021-04-17T22:45:48	ab033001161867434799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:45:48	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:45:51	ab033001161867435099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:45:51	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:45:55	ab033001161867435499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:45:55	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:45:58	ab033001161867435799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:45:58	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:46:02	ab033001161867436199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:46:02	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:46:06	ab033001161867436599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:46:06	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:46:16	ab033001161867436899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:46:16	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:46:16	ab033001161867437299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:46:16	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:46:16	ab033001161867437599C3903C3600000099  on topic: agvHandler
+
+
+2021-04-17T22:46:55				--------------------------------
+2021-04-17T22:46:55	Starting planning module ...
+2021-04-17T22:46:55	Connecting to AGV 1 ...
+2021-04-17T22:46:55	Done
+2021-04-17T22:46:55	Connecting to AGV 2 ...
+2021-04-17T22:46:55	Done
+2021-04-17T22:46:55	Connecting to AGV 3 ...
+2021-04-17T22:46:55	Done
+2021-04-17T22:46:55	Connecting to AGV 4 ...
+2021-04-17T22:46:55	Done
+2021-04-17T22:46:55	Planning module is running...
+2021-04-17T22:46:59	ab033001161867441999C3903C3600000099  on topic: agvHandler
+
+
+2021-04-17T22:48:08				--------------------------------
+2021-04-17T22:48:08	Starting planning module ...
+2021-04-17T22:48:09	Connecting to AGV 1 ...
+2021-04-17T22:48:09	Done
+2021-04-17T22:48:09	Connecting to AGV 2 ...
+2021-04-17T22:48:09	Done
+2021-04-17T22:48:09	Connecting to AGV 3 ...
+2021-04-17T22:48:09	Done
+2021-04-17T22:48:09	Connecting to AGV 4 ...
+2021-04-17T22:48:09	Done
+2021-04-17T22:48:09	Planning module is running...
+2021-04-17T22:49:02	ab022201281299  on topic: agvHandler
+
+2021-04-17T22:49:02	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:49:10	ab0330013299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:49:10	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:49:12	ab0330013799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:49:12	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:49:39	ab022201471299  on topic: agvHandler
+
+2021-04-17T22:49:39	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:49:42	ab0330015299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:49:42	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:49:42	ab0330015699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:49:42	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:49:42	ab0330016199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:49:42	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:49:42	ab0330016599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:49:42	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:50:08	ab022201941299  on topic: agvHandler
+
+2021-04-17T22:50:08	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:50:33	ab02220116186746321299  on topic: agvHandler
+
+2021-04-17T22:50:33	Recieved login command : ab02220116186746321299
+2021-04-17T22:50:42	ab033001161867463599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:50:42	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:50:42	ab033001161867463999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:50:42	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:50:44	ab033001161867464399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:50:44	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:50:47	ab033001161867464699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:50:47	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:50:51	ab033001161867465099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:50:51	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:50:54	ab033001161867465399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:50:54	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:50:58	ab033001161867465799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:50:58	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:51:01	ab033001161867466199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:51:02	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:51:05	ab033001161867466499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:51:05	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:51:09	ab033001161867466899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:51:09	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:51:12	ab033001161867467199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:51:12	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:51:16	ab033001161867467599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:51:16	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:51:19	ab033001161867467899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:51:19	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:51:23	ab033001161867468299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:51:23	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:51:26	ab033001161867468599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:51:26	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:52:01	ab02220116186747211299  on topic: agvHandler
+
+2021-04-17T22:52:01	Recieved login command : ab02220116186747211299
+2021-04-17T22:52:05	ab033601161867472599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:05	Recieved heartbeat command : ab033601161867472599C3903C3600000099
+2021-04-17T22:52:09	ab033601161867472899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:09	Recieved heartbeat command : ab033601161867472899C3903C3600000099
+2021-04-17T22:52:12	ab033601161867473299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:12	Recieved heartbeat command : ab033601161867473299C3903C3600000099
+2021-04-17T22:52:16	ab033601161867473599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:16	Recieved heartbeat command : ab033601161867473599C3903C3600000099
+2021-04-17T22:52:20	ab033601161867473999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:20	Recieved heartbeat command : ab033601161867473999C3903C3600000099
+2021-04-17T22:52:23	ab033601161867474299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:23	Recieved heartbeat command : ab033601161867474299C3903C3600000099
+2021-04-17T22:52:27	ab033601161867474699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:27	Recieved heartbeat command : ab033601161867474699C3903C3600000099
+2021-04-17T22:52:30	ab033601161867474999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:30	Recieved heartbeat command : ab033601161867474999C3903C3600000099
+2021-04-17T22:52:34	ab033601161867475399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:34	Recieved heartbeat command : ab033601161867475399C3903C3600000099
+2021-04-17T22:52:37	ab033601161867475799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:37	Recieved heartbeat command : ab033601161867475799C3903C3600000099
+2021-04-17T22:52:41	ab033601161867476099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:41	Recieved heartbeat command : ab033601161867476099C3903C3600000099
+2021-04-17T22:52:44	ab033601161867476499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:44	Recieved heartbeat command : ab033601161867476499C3903C3600000099
+2021-04-17T22:52:48	ab033601161867476799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:48	Recieved heartbeat command : ab033601161867476799C3903C3600000099
+2021-04-17T22:52:51	ab033601161867477199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:51	Recieved heartbeat command : ab033601161867477199C3903C3600000099
+2021-04-17T22:52:55	ab033601161867477499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:52:55	Recieved heartbeat command : ab033601161867477499C3903C3600000099
+2021-04-17T22:53:15	ab02220116186747941299  on topic: agvHandler
+
+2021-04-17T22:53:15	Recieved login command : ab02220116186747941299
+2021-04-17T22:53:24	ab033601161867479799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:53:24	Recieved heartbeat command : ab033601161867479799C3903C3600000099
+2021-04-17T22:53:24	ab033601161867480199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:53:24	Recieved heartbeat command : ab033601161867480199C3903C3600000099
+2021-04-17T22:53:35	ab02220116186748151299  on topic: agvHandler
+
+2021-04-17T22:53:35	Recieved login command : ab02220116186748151299
+2021-04-17T22:53:38	ab01340116186748150474C842F76C8100000099  on topic: agvHandler
+
+2021-04-17T22:53:38	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+
+2021-04-17T22:57:09				--------------------------------
+2021-04-17T22:57:09	Starting planning module ...
+2021-04-17T22:57:10	Connecting to AGV 1 ...
+2021-04-17T22:57:10	Done
+2021-04-17T22:57:10	Connecting to AGV 2 ...
+2021-04-17T22:57:10	Done
+2021-04-17T22:57:10	Connecting to AGV 3 ...
+2021-04-17T22:57:10	Done
+2021-04-17T22:57:10	Connecting to AGV 4 ...
+2021-04-17T22:57:10	Done
+2021-04-17T22:57:10	Planning module is running...
+2021-04-17T22:57:11	ab033601161867503199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:57:11	Recieved heartbeat command : ab033601161867503199C3903C3600000099
+2021-04-17T22:57:15	ab033601161867503599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:57:15	Recieved heartbeat command : ab033601161867503599C3903C3600000099
+2021-04-17T22:57:18	ab033601161867503899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:57:24	Recieved heartbeat command : ab033601161867503899C3903C3600000099
+2021-04-17T22:57:24	ab01340116186750400481CA42F76C8100000099  on topic: agvHandler
+
+2021-04-17T22:57:24	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:57:33	ab02220116186750531299  on topic: agvHandler
+
+2021-04-17T22:57:33	Recieved login command : ab02220116186750531299
+2021-04-17T22:57:37	ab033601161867505799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:57:37	Recieved heartbeat command : ab033601161867505799C3903C3600000099
+2021-04-17T22:57:41	ab033601161867506099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:57:41	Recieved heartbeat command : ab033601161867506099C3903C3600000099
+2021-04-17T22:57:52	ab02220116186750721299  on topic: agvHandler
+
+2021-04-17T22:57:52	Recieved login command : ab02220116186750721299
+2021-04-17T22:57:56	ab033601161867507599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:57:56	Recieved heartbeat command : ab033601161867507599C3903C3600000099
+2021-04-17T22:58:00	ab033601161867507999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:00	Recieved heartbeat command : ab033601161867507999C3903C3600000099
+2021-04-17T22:58:03	ab033601161867508399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:03	Recieved heartbeat command : ab033601161867508399C3903C3600000099
+2021-04-17T22:58:07	ab033601161867508699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:07	Recieved heartbeat command : ab033601161867508699C3903C3600000099
+2021-04-17T22:58:10	ab033601161867509099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:10	Recieved heartbeat command : ab033601161867509099C3903C3600000099
+2021-04-17T22:58:14	ab033601161867509399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:14	Recieved heartbeat command : ab033601161867509399C3903C3600000099
+2021-04-17T22:58:17	ab033601161867509799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:17	Recieved heartbeat command : ab033601161867509799C3903C3600000099
+2021-04-17T22:58:21	ab033601161867510099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:21	Recieved heartbeat command : ab033601161867510099C3903C3600000099
+2021-04-17T22:58:25	ab033601161867510499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:25	Recieved heartbeat command : ab033601161867510499C3903C3600000099
+2021-04-17T22:58:28	ab033601161867510799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:28	Recieved heartbeat command : ab033601161867510799C3903C3600000099
+2021-04-17T22:58:32	ab033601161867511199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:32	Recieved heartbeat command : ab033601161867511199C3903C3600000099
+2021-04-17T22:58:35	ab033601161867511499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:35	Recieved heartbeat command : ab033601161867511499C3903C3600000099
+2021-04-17T22:58:39	ab033601161867511899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:39	Recieved heartbeat command : ab033601161867511899C3903C3600000099
+2021-04-17T22:58:40	ab01340116186751200481CA42F76C8100000099  on topic: agvHandler
+
+2021-04-17T22:58:40	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T22:58:53	ab02220116186751321299  on topic: agvHandler
+
+2021-04-17T22:58:53	Recieved login command : ab02220116186751321299
+2021-04-17T22:58:56	ab033601161867513699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:58:56	Recieved heartbeat command : ab033601161867513699C3903C3600000099
+2021-04-17T22:59:00	ab033601161867513999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:00	Recieved heartbeat command : ab033601161867513999C3903C3600000099
+2021-04-17T22:59:04	ab033601161867514399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:04	Recieved heartbeat command : ab033601161867514399C3903C3600000099
+2021-04-17T22:59:07	ab033601161867514799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:07	Recieved heartbeat command : ab033601161867514799C3903C3600000099
+2021-04-17T22:59:11	ab033601161867515099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:11	Recieved heartbeat command : ab033601161867515099C3903C3600000099
+2021-04-17T22:59:14	ab033601161867515499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:14	Recieved heartbeat command : ab033601161867515499C3903C3600000099
+2021-04-17T22:59:18	ab033601161867515799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:18	Recieved heartbeat command : ab033601161867515799C3903C3600000099
+2021-04-17T22:59:21	ab033601161867516199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:21	Recieved heartbeat command : ab033601161867516199C3903C3600000099
+2021-04-17T22:59:25	ab033601161867516499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:25	Recieved heartbeat command : ab033601161867516499C3903C3600000099
+2021-04-17T22:59:28	ab033601161867516899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:28	Recieved heartbeat command : ab033601161867516899C3903C3600000099
+2021-04-17T22:59:32	ab033601161867517199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:32	Recieved heartbeat command : ab033601161867517199C3903C3600000099
+2021-04-17T22:59:36	ab033601161867517599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:36	Recieved heartbeat command : ab033601161867517599C3903C3600000099
+2021-04-17T22:59:39	ab033601161867517899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:39	Recieved heartbeat command : ab033601161867517899C3903C3600000099
+2021-04-17T22:59:43	ab033601161867518299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:43	Recieved heartbeat command : ab033601161867518299C3903C3600000099
+2021-04-17T22:59:46	ab033601161867518699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:46	Recieved heartbeat command : ab033601161867518699C3903C3600000099
+2021-04-17T22:59:50	ab033601161867518999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:50	Recieved heartbeat command : ab033601161867518999C3903C3600000099
+2021-04-17T22:59:53	ab033601161867519399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:53	Recieved heartbeat command : ab033601161867519399C3903C3600000099
+2021-04-17T22:59:57	ab033601161867519699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T22:59:57	Recieved heartbeat command : ab033601161867519699C3903C3600000099
+2021-04-17T23:00:00	ab033601161867520099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:00	Recieved heartbeat command : ab033601161867520099C3903C3600000099
+2021-04-17T23:00:04	ab033601161867520399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:04	Recieved heartbeat command : ab033601161867520399C3903C3600000099
+2021-04-17T23:00:08	ab033601161867520799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:08	Recieved heartbeat command : ab033601161867520799C3903C3600000099
+2021-04-17T23:00:11	ab033601161867521099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:11	Recieved heartbeat command : ab033601161867521099C3903C3600000099
+2021-04-17T23:00:15	ab033601161867521499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:15	Recieved heartbeat command : ab033601161867521499C3903C3600000099
+2021-04-17T23:00:18	ab033601161867521799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:18	Recieved heartbeat command : ab033601161867521799C3903C3600000099
+2021-04-17T23:00:22	ab033601161867522199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:22	Recieved heartbeat command : ab033601161867522199C3903C3600000099
+2021-04-17T23:00:25	ab033601161867522499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:25	Recieved heartbeat command : ab033601161867522499C3903C3600000099
+2021-04-17T23:00:30	ab033601161867522899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:30	Recieved heartbeat command : ab033601161867522899C3903C3600000099
+2021-04-17T23:00:32	ab033601161867523299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:32	Recieved heartbeat command : ab033601161867523299C3903C3600000099
+2021-04-17T23:00:36	ab033601161867523599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:36	Recieved heartbeat command : ab033601161867523599C3903C3600000099
+2021-04-17T23:00:39	ab033601161867523999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:39	Recieved heartbeat command : ab033601161867523999C3903C3600000099
+2021-04-17T23:00:43	ab033601161867524299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:43	Recieved heartbeat command : ab033601161867524299C3903C3600000099
+2021-04-17T23:00:46	ab033601161867524699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:46	Recieved heartbeat command : ab033601161867524699C3903C3600000099
+2021-04-17T23:00:50	ab033601161867524999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:50	Recieved heartbeat command : ab033601161867524999C3903C3600000099
+2021-04-17T23:00:54	ab033601161867525499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:54	Recieved heartbeat command : ab033601161867525499C3903C3600000099
+2021-04-17T23:00:57	ab033601161867525799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:00:57	Recieved heartbeat command : ab033601161867525799C3903C3600000099
+2021-04-17T23:01:01	ab033601161867526199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:01	Recieved heartbeat command : ab033601161867526199C3903C3600000099
+2021-04-17T23:01:04	ab033601161867526499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:04	Recieved heartbeat command : ab033601161867526499C3903C3600000099
+2021-04-17T23:01:08	ab033601161867526899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:08	Recieved heartbeat command : ab033601161867526899C3903C3600000099
+2021-04-17T23:01:11	ab033601161867527199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:11	Recieved heartbeat command : ab033601161867527199C3903C3600000099
+2021-04-17T23:01:15	ab033601161867527599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:15	Recieved heartbeat command : ab033601161867527599C3903C3600000099
+2021-04-17T23:01:18	ab033601161867527899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:18	Recieved heartbeat command : ab033601161867527899C3903C3600000099
+2021-04-17T23:01:22	ab033601161867528299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:22	Recieved heartbeat command : ab033601161867528299C3903C3600000099
+2021-04-17T23:01:26	ab033601161867528599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:26	Recieved heartbeat command : ab033601161867528599C3903C3600000099
+2021-04-17T23:01:29	ab033601161867528999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:29	Recieved heartbeat command : ab033601161867528999C3903C3600000099
+2021-04-17T23:01:33	ab033601161867529399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:33	Recieved heartbeat command : ab033601161867529399C3903C3600000099
+2021-04-17T23:01:36	ab033601161867529699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:36	Recieved heartbeat command : ab033601161867529699C3903C3600000099
+2021-04-17T23:01:40	ab033601161867530099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:40	Recieved heartbeat command : ab033601161867530099C3903C3600000099
+2021-04-17T23:01:43	ab033601161867530399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:43	Recieved heartbeat command : ab033601161867530399C3903C3600000099
+2021-04-17T23:01:47	ab033601161867530799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:47	Recieved heartbeat command : ab033601161867530799C3903C3600000099
+2021-04-17T23:01:50	ab033601161867531099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:50	Recieved heartbeat command : ab033601161867531099C3903C3600000099
+2021-04-17T23:01:56	ab033601161867531599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:56	Recieved heartbeat command : ab033601161867531599C3903C3600000099
+2021-04-17T23:01:59	ab033601161867531899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:01:59	Recieved heartbeat command : ab033601161867531899C3903C3600000099
+2021-04-17T23:02:03	ab033601161867532299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:03	Recieved heartbeat command : ab033601161867532299C3903C3600000099
+2021-04-17T23:02:06	ab033601161867532599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:06	Recieved heartbeat command : ab033601161867532599C3903C3600000099
+2021-04-17T23:02:10	ab033601161867532999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:10	Recieved heartbeat command : ab033601161867532999C3903C3600000099
+2021-04-17T23:02:13	ab033601161867533299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:13	Recieved heartbeat command : ab033601161867533299C3903C3600000099
+2021-04-17T23:02:17	ab033601161867533699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:17	Recieved heartbeat command : ab033601161867533699C3903C3600000099
+2021-04-17T23:02:20	ab033601161867533999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:20	Recieved heartbeat command : ab033601161867533999C3903C3600000099
+2021-04-17T23:02:24	ab033601161867534399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:24	Recieved heartbeat command : ab033601161867534399C3903C3600000099
+2021-04-17T23:02:27	ab033601161867534699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:27	Recieved heartbeat command : ab033601161867534699C3903C3600000099
+2021-04-17T23:02:31	ab033601161867535099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:31	Recieved heartbeat command : ab033601161867535099C3903C3600000099
+2021-04-17T23:02:35	ab033601161867535499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:35	Recieved heartbeat command : ab033601161867535499C3903C3600000099
+2021-04-17T23:02:38	ab033601161867535799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:38	Recieved heartbeat command : ab033601161867535799C3903C3600000099
+2021-04-17T23:02:43	ab033601161867536199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:43	Recieved heartbeat command : ab033601161867536199C3903C3600000099
+2021-04-17T23:02:45	ab033601161867536499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:45	Recieved heartbeat command : ab033601161867536499C3903C3600000099
+2021-04-17T23:02:49	ab033601161867536899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:49	Recieved heartbeat command : ab033601161867536899C3903C3600000099
+2021-04-17T23:02:52	ab033601161867537199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:52	Recieved heartbeat command : ab033601161867537199C3903C3600000099
+2021-04-17T23:02:56	ab033601161867537699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:56	Recieved heartbeat command : ab033601161867537699C3903C3600000099
+2021-04-17T23:02:59	ab033601161867537999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:02:59	Recieved heartbeat command : ab033601161867537999C3903C3600000099
+2021-04-17T23:03:42	ab02220116186754211299  on topic: agvHandler
+
+2021-04-17T23:03:42	Recieved login command : ab02220116186754211299
+2021-04-17T23:04:04	ab033601161867542599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:04	Recieved heartbeat command : ab033601161867542599C3903C3600000099
+2021-04-17T23:04:04	ab033601161867542899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:04	Recieved heartbeat command : ab033601161867542899C3903C3600000099
+2021-04-17T23:04:04	ab033601161867543299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:04	Recieved heartbeat command : ab033601161867543299C3903C3600000099
+2021-04-17T23:04:04	ab033601161867543699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:04	Recieved heartbeat command : ab033601161867543699C3903C3600000099
+2021-04-17T23:04:04	ab033601161867543999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:04	Recieved heartbeat command : ab033601161867543999C3903C3600000099
+2021-04-17T23:04:04	ab033601161867544399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:04	Recieved heartbeat command : ab033601161867544399C3903C3600000099
+2021-04-17T23:04:07	ab033601161867544699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:07	Recieved heartbeat command : ab033601161867544699C3903C3600000099
+2021-04-17T23:04:11	ab033601161867545099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:11	Recieved heartbeat command : ab033601161867545099C3903C3600000099
+2021-04-17T23:04:14	ab033601161867545499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:14	Recieved heartbeat command : ab033601161867545499C3903C3600000099
+2021-04-17T23:04:18	ab033601161867545799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:18	Recieved heartbeat command : ab033601161867545799C3903C3600000099
+2021-04-17T23:04:21	ab033601161867546199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:21	Recieved heartbeat command : ab033601161867546199C3903C3600000099
+2021-04-17T23:04:25	ab033601161867546499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:25	Recieved heartbeat command : ab033601161867546499C3903C3600000099
+2021-04-17T23:04:28	ab033601161867546899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:28	Recieved heartbeat command : ab033601161867546899C3903C3600000099
+2021-04-17T23:04:32	ab033601161867547199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:32	Recieved heartbeat command : ab033601161867547199C3903C3600000099
+2021-04-17T23:04:35	ab033601161867547599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:35	Recieved heartbeat command : ab033601161867547599C3903C3600000099
+2021-04-17T23:04:39	ab033601161867547899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:04:39	Recieved heartbeat command : ab033601161867547899C3903C3600000099
+2021-04-17T23:04:43	ab0134011618675482047FC942F76C8100000099  on topic: agvHandler
+
+2021-04-17T23:04:43	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:05:03	ab02220116186755021299  on topic: agvHandler
+
+2021-04-17T23:05:03	Recieved login command : ab02220116186755021299
+2021-04-17T23:05:06	ab033601161867550699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:06	Recieved heartbeat command : ab033601161867550699C3903C3600000099
+2021-04-17T23:05:10	ab033601161867550999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:10	Recieved heartbeat command : ab033601161867550999C3903C3600000099
+2021-04-17T23:05:14	ab033601161867551399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:14	Recieved heartbeat command : ab033601161867551399C3903C3600000099
+2021-04-17T23:05:17	ab033601161867551699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:17	Recieved heartbeat command : ab033601161867551699C3903C3600000099
+2021-04-17T23:05:21	ab033601161867552099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:21	Recieved heartbeat command : ab033601161867552099C3903C3600000099
+2021-04-17T23:05:24	ab033601161867552399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:24	Recieved heartbeat command : ab033601161867552399C3903C3600000099
+2021-04-17T23:05:28	ab033601161867552799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:28	Recieved heartbeat command : ab033601161867552799C3903C3600000099
+2021-04-17T23:05:31	ab033601161867553099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:31	Recieved heartbeat command : ab033601161867553099C3903C3600000099
+2021-04-17T23:05:35	ab033601161867553499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:35	Recieved heartbeat command : ab033601161867553499C3903C3600000099
+2021-04-17T23:05:38	ab033601161867553799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:38	Recieved heartbeat command : ab033601161867553799C3903C3600000099
+2021-04-17T23:05:42	ab033601161867554199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:42	Recieved heartbeat command : ab033601161867554199C3903C3600000099
+2021-04-17T23:05:45	ab033601161867554599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:45	Recieved heartbeat command : ab033601161867554599C3903C3600000099
+2021-04-17T23:05:49	ab033601161867554899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:49	Recieved heartbeat command : ab033601161867554899C3903C3600000099
+2021-04-17T23:05:53	ab033601161867555299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:53	Recieved heartbeat command : ab033601161867555299C3903C3600000099
+2021-04-17T23:05:56	ab033601161867555599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:05:56	Recieved heartbeat command : ab033601161867555599C3903C3600000099
+2021-04-17T23:06:01	ab033601161867556099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:01	Recieved heartbeat command : ab033601161867556099C3903C3600000099
+2021-04-17T23:06:05	ab033601161867556499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:05	Recieved heartbeat command : ab033601161867556499C3903C3600000099
+2021-04-17T23:06:08	ab033601161867556799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:08	Recieved heartbeat command : ab033601161867556799C3903C3600000099
+2021-04-17T23:06:12	ab033601161867557199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:12	Recieved heartbeat command : ab033601161867557199C3903C3600000099
+2021-04-17T23:06:15	ab033601161867557499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:15	Recieved heartbeat command : ab033601161867557499C3903C3600000099
+2021-04-17T23:06:19	ab033601161867557899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:19	Recieved heartbeat command : ab033601161867557899C3903C3600000099
+2021-04-17T23:06:22	ab033601161867558299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:22	Recieved heartbeat command : ab033601161867558299C3903C3600000099
+2021-04-17T23:06:26	ab033601161867558599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:26	Recieved heartbeat command : ab033601161867558599C3903C3600000099
+2021-04-17T23:06:29	ab033601161867558999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:29	Recieved heartbeat command : ab033601161867558999C3903C3600000099
+2021-04-17T23:06:33	ab033601161867559299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:33	Recieved heartbeat command : ab033601161867559299C3903C3600000099
+2021-04-17T23:06:36	ab033601161867559699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:36	Recieved heartbeat command : ab033601161867559699C3903C3600000099
+2021-04-17T23:06:40	ab033601161867559999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:40	Recieved heartbeat command : ab033601161867559999C3903C3600000099
+2021-04-17T23:06:44	ab033601161867560399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:44	Recieved heartbeat command : ab033601161867560399C3903C3600000099
+2021-04-17T23:06:47	ab033601161867560699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:47	Recieved heartbeat command : ab033601161867560699C3903C3600000099
+2021-04-17T23:06:51	ab033601161867561099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:51	Recieved heartbeat command : ab033601161867561099C3903C3600000099
+2021-04-17T23:06:54	ab033601161867561399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:54	Recieved heartbeat command : ab033601161867561399C3903C3600000099
+2021-04-17T23:06:58	ab033601161867561799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:06:58	Recieved heartbeat command : ab033601161867561799C3903C3600000099
+2021-04-17T23:07:01	ab033601161867562199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:01	Recieved heartbeat command : ab033601161867562199C3903C3600000099
+2021-04-17T23:07:05	ab033601161867562599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:05	Recieved heartbeat command : ab033601161867562599C3903C3600000099
+2021-04-17T23:07:08	ab033601161867562899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:08	Recieved heartbeat command : ab033601161867562899C3903C3600000099
+2021-04-17T23:07:12	ab033601161867563299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:12	Recieved heartbeat command : ab033601161867563299C3903C3600000099
+2021-04-17T23:07:15	ab033601161867563599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:15	Recieved heartbeat command : ab033601161867563599C3903C3600000099
+2021-04-17T23:07:19	ab033601161867563999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:19	Recieved heartbeat command : ab033601161867563999C3903C3600000099
+2021-04-17T23:07:23	ab033601161867564299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:23	Recieved heartbeat command : ab033601161867564299C3903C3600000099
+2021-04-17T23:07:26	ab033601161867564699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:26	Recieved heartbeat command : ab033601161867564699C3903C3600000099
+2021-04-17T23:07:30	ab033601161867564999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:30	Recieved heartbeat command : ab033601161867564999C3903C3600000099
+2021-04-17T23:07:33	ab033601161867565399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:33	Recieved heartbeat command : ab033601161867565399C3903C3600000099
+2021-04-17T23:07:37	ab033601161867565699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:37	Recieved heartbeat command : ab033601161867565699C3903C3600000099
+2021-04-17T23:07:40	ab033601161867566099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:40	Recieved heartbeat command : ab033601161867566099C3903C3600000099
+2021-04-17T23:07:44	ab033601161867566499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:44	Recieved heartbeat command : ab033601161867566499C3903C3600000099
+2021-04-17T23:07:47	ab033601161867566799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:47	Recieved heartbeat command : ab033601161867566799C3903C3600000099
+2021-04-17T23:07:51	ab033601161867567199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:51	Recieved heartbeat command : ab033601161867567199C3903C3600000099
+2021-04-17T23:07:54	ab033601161867567499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:54	Recieved heartbeat command : ab033601161867567499C3903C3600000099
+2021-04-17T23:07:58	ab033601161867567899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:07:58	Recieved heartbeat command : ab033601161867567899C3903C3600000099
+2021-04-17T23:08:02	ab033601161867568199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:02	Recieved heartbeat command : ab033601161867568199C3903C3600000099
+2021-04-17T23:08:05	ab033601161867568599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:05	Recieved heartbeat command : ab033601161867568599C3903C3600000099
+2021-04-17T23:08:09	ab033601161867568899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:09	Recieved heartbeat command : ab033601161867568899C3903C3600000099
+2021-04-17T23:08:12	ab033601161867569299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:12	Recieved heartbeat command : ab033601161867569299C3903C3600000099
+2021-04-17T23:08:16	ab033601161867569599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:16	Recieved heartbeat command : ab033601161867569599C3903C3600000099
+2021-04-17T23:08:19	ab033601161867569999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:19	Recieved heartbeat command : ab033601161867569999C3903C3600000099
+2021-04-17T23:08:23	ab033601161867570299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:23	Recieved heartbeat command : ab033601161867570299C3903C3600000099
+2021-04-17T23:08:26	ab033601161867570699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:26	Recieved heartbeat command : ab033601161867570699C3903C3600000099
+2021-04-17T23:08:30	ab033601161867570999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:30	Recieved heartbeat command : ab033601161867570999C3903C3600000099
+2021-04-17T23:08:34	ab033601161867571399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:34	Recieved heartbeat command : ab033601161867571399C3903C3600000099
+2021-04-17T23:08:37	ab033601161867571699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:37	Recieved heartbeat command : ab033601161867571699C3903C3600000099
+2021-04-17T23:08:41	ab033601161867572099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:41	Recieved heartbeat command : ab033601161867572099C3903C3600000099
+2021-04-17T23:08:44	ab033601161867572499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:44	Recieved heartbeat command : ab033601161867572499C3903C3600000099
+2021-04-17T23:08:48	ab033601161867572799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:48	Recieved heartbeat command : ab033601161867572799C3903C3600000099
+2021-04-17T23:08:51	ab033601161867573199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:51	Recieved heartbeat command : ab033601161867573199C3903C3600000099
+2021-04-17T23:08:55	ab033601161867573499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:55	Recieved heartbeat command : ab033601161867573499C3903C3600000099
+2021-04-17T23:08:58	ab033601161867573899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:08:58	Recieved heartbeat command : ab033601161867573899C3903C3600000099
+2021-04-17T23:09:02	ab033601161867574199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:02	Recieved heartbeat command : ab033601161867574199C3903C3600000099
+2021-04-17T23:09:06	ab033601161867574599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:06	Recieved heartbeat command : ab033601161867574599C3903C3600000099
+2021-04-17T23:09:09	ab033601161867574899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:09	Recieved heartbeat command : ab033601161867574899C3903C3600000099
+2021-04-17T23:09:13	ab033601161867575299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:13	Recieved heartbeat command : ab033601161867575299C3903C3600000099
+2021-04-17T23:09:16	ab033601161867575599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:16	Recieved heartbeat command : ab033601161867575599C3903C3600000099
+2021-04-17T23:09:20	ab033601161867575999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:20	Recieved heartbeat command : ab033601161867575999C3903C3600000099
+2021-04-17T23:09:23	ab033601161867576299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:23	Recieved heartbeat command : ab033601161867576299C3903C3600000099
+2021-04-17T23:09:27	ab033601161867576699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:27	Recieved heartbeat command : ab033601161867576699C3903C3600000099
+2021-04-17T23:09:30	ab033601161867576999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:30	Recieved heartbeat command : ab033601161867576999C3903C3600000099
+2021-04-17T23:09:34	ab033601161867577399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:34	Recieved heartbeat command : ab033601161867577399C3903C3600000099
+2021-04-17T23:09:37	ab033601161867577699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:37	Recieved heartbeat command : ab033601161867577699C3903C3600000099
+2021-04-17T23:09:41	ab033601161867578099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:41	Recieved heartbeat command : ab033601161867578099C3903C3600000099
+2021-04-17T23:09:45	ab033601161867578499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:45	Recieved heartbeat command : ab033601161867578499C3903C3600000099
+2021-04-17T23:09:48	ab033601161867578799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:48	Recieved heartbeat command : ab033601161867578799C3903C3600000099
+2021-04-17T23:09:52	ab033601161867579199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:52	Recieved heartbeat command : ab033601161867579199C3903C3600000099
+2021-04-17T23:09:55	ab033601161867579499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:55	Recieved heartbeat command : ab033601161867579499C3903C3600000099
+2021-04-17T23:09:59	ab033601161867579899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:09:59	Recieved heartbeat command : ab033601161867579899C3903C3600000099
+2021-04-17T23:10:02	ab033601161867580199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:02	Recieved heartbeat command : ab033601161867580199C3903C3600000099
+2021-04-17T23:10:06	ab033601161867580699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:06	Recieved heartbeat command : ab033601161867580699C3903C3600000099
+2021-04-17T23:10:09	ab033601161867580999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:09	Recieved heartbeat command : ab033601161867580999C3903C3600000099
+2021-04-17T23:10:13	ab033601161867581399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:13	Recieved heartbeat command : ab033601161867581399C3903C3600000099
+2021-04-17T23:10:16	ab033601161867581699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:16	Recieved heartbeat command : ab033601161867581699C3903C3600000099
+2021-04-17T23:10:20	ab033601161867582099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:20	Recieved heartbeat command : ab033601161867582099C3903C3600000099
+2021-04-17T23:10:24	ab033601161867582399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:24	Recieved heartbeat command : ab033601161867582399C3903C3600000099
+2021-04-17T23:10:27	ab033601161867582799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:27	Recieved heartbeat command : ab033601161867582799C3903C3600000099
+2021-04-17T23:10:31	ab033601161867583099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:31	Recieved heartbeat command : ab033601161867583099C3903C3600000099
+2021-04-17T23:10:34	ab033601161867583499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:34	Recieved heartbeat command : ab033601161867583499C3903C3600000099
+2021-04-17T23:10:38	ab033601161867583799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:38	Recieved heartbeat command : ab033601161867583799C3903C3600000099
+2021-04-17T23:10:41	ab033601161867584199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:41	Recieved heartbeat command : ab033601161867584199C3903C3600000099
+2021-04-17T23:10:45	ab033601161867584599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:45	Recieved heartbeat command : ab033601161867584599C3903C3600000099
+2021-04-17T23:10:48	ab033601161867584899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:48	Recieved heartbeat command : ab033601161867584899C3903C3600000099
+2021-04-17T23:10:52	ab033601161867585299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:52	Recieved heartbeat command : ab033601161867585299C3903C3600000099
+2021-04-17T23:10:55	ab033601161867585599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:55	Recieved heartbeat command : ab033601161867585599C3903C3600000099
+2021-04-17T23:10:59	ab033601161867585999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:10:59	Recieved heartbeat command : ab033601161867585999C3903C3600000099
+2021-04-17T23:11:03	ab033601161867586299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:03	Recieved heartbeat command : ab033601161867586299C3903C3600000099
+2021-04-17T23:11:06	ab033601161867586699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:06	Recieved heartbeat command : ab033601161867586699C3903C3600000099
+2021-04-17T23:11:10	ab033601161867586999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:10	Recieved heartbeat command : ab033601161867586999C3903C3600000099
+2021-04-17T23:11:13	ab033601161867587399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:13	Recieved heartbeat command : ab033601161867587399C3903C3600000099
+2021-04-17T23:11:17	ab033601161867587699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:17	Recieved heartbeat command : ab033601161867587699C3903C3600000099
+2021-04-17T23:11:20	ab033601161867588099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:20	Recieved heartbeat command : ab033601161867588099C3903C3600000099
+2021-04-17T23:11:24	ab033601161867588399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:24	Recieved heartbeat command : ab033601161867588399C3903C3600000099
+2021-04-17T23:11:27	ab033601161867588799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:27	Recieved heartbeat command : ab033601161867588799C3903C3600000099
+2021-04-17T23:11:31	ab033601161867589099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:31	Recieved heartbeat command : ab033601161867589099C3903C3600000099
+2021-04-17T23:11:35	ab033601161867589499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:35	Recieved heartbeat command : ab033601161867589499C3903C3600000099
+2021-04-17T23:11:38	ab033601161867589799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:38	Recieved heartbeat command : ab033601161867589799C3903C3600000099
+2021-04-17T23:11:42	ab033601161867590199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:42	Recieved heartbeat command : ab033601161867590199C3903C3600000099
+2021-04-17T23:11:45	ab033601161867590599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:45	Recieved heartbeat command : ab033601161867590599C3903C3600000099
+2021-04-17T23:11:49	ab033601161867590899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:49	Recieved heartbeat command : ab033601161867590899C3903C3600000099
+2021-04-17T23:11:52	ab033601161867591299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:52	Recieved heartbeat command : ab033601161867591299C3903C3600000099
+2021-04-17T23:11:56	ab033601161867591599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:56	Recieved heartbeat command : ab033601161867591599C3903C3600000099
+2021-04-17T23:11:59	ab033601161867591999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:11:59	Recieved heartbeat command : ab033601161867591999C3903C3600000099
+2021-04-17T23:12:03	ab033601161867592299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:03	Recieved heartbeat command : ab033601161867592299C3903C3600000099
+2021-04-17T23:12:07	ab033601161867592699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:07	Recieved heartbeat command : ab033601161867592699C3903C3600000099
+2021-04-17T23:12:10	ab033601161867592999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:10	Recieved heartbeat command : ab033601161867592999C3903C3600000099
+2021-04-17T23:12:14	ab033601161867593399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:14	Recieved heartbeat command : ab033601161867593399C3903C3600000099
+2021-04-17T23:12:17	ab033601161867593699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:17	Recieved heartbeat command : ab033601161867593699C3903C3600000099
+2021-04-17T23:12:21	ab033601161867594099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:21	Recieved heartbeat command : ab033601161867594099C3903C3600000099
+2021-04-17T23:12:24	ab033601161867594399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:24	Recieved heartbeat command : ab033601161867594399C3903C3600000099
+2021-04-17T23:12:28	ab033601161867594799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:28	Recieved heartbeat command : ab033601161867594799C3903C3600000099
+2021-04-17T23:12:31	ab033601161867595099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:31	Recieved heartbeat command : ab033601161867595099C3903C3600000099
+2021-04-17T23:12:35	ab033601161867595499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:35	Recieved heartbeat command : ab033601161867595499C3903C3600000099
+2021-04-17T23:12:38	ab033601161867595799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:38	Recieved heartbeat command : ab033601161867595799C3903C3600000099
+2021-04-17T23:12:42	ab033601161867596199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:42	Recieved heartbeat command : ab033601161867596199C3903C3600000099
+2021-04-17T23:12:46	ab033601161867596599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:46	Recieved heartbeat command : ab033601161867596599C3903C3600000099
+2021-04-17T23:12:49	ab033601161867596899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:49	Recieved heartbeat command : ab033601161867596899C3903C3600000099
+2021-04-17T23:12:53	ab033601161867597299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:53	Recieved heartbeat command : ab033601161867597299C3903C3600000099
+2021-04-17T23:12:56	ab033601161867597599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:12:56	Recieved heartbeat command : ab033601161867597599C3903C3600000099
+2021-04-17T23:13:00	ab033601161867597999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:13:00	Recieved heartbeat command : ab033601161867597999C3903C3600000099
+2021-04-17T23:13:03	ab033601161867598299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:13:03	Recieved heartbeat command : ab033601161867598299C3903C3600000099
+2021-04-17T23:13:03	ab01340116186759823066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:03	Recieved meet new RFID command : ab01340116186759823066B1B900000099
+2021-04-17T23:13:07	ab03B9011618675987993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:07	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:07	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:10	ab03B9011618675990993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:10	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:10	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:14	ab03B9011618675994993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:14	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:14	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:17	ab03B9011618675997993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:17	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:17	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:21	ab03B9011618676001993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:21	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:21	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:24	ab03B9011618676004993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:24	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:24	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:28	ab03B9011618676008993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:28	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:28	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:31	ab03B9011618676011993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:31	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:32	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:35	ab03B9011618676015993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:35	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:35	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:39	ab03B9011618676018993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:39	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:39	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:42	ab03B9011618676022993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:42	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:42	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:46	ab03B9011618676026993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:46	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:46	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:49	ab03B9011618676029993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:49	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:49	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:53	ab03B9011618676033993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:53	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:53	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:13:56	ab03B9011618676036993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:13:56	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:13:56	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:00	ab03B9011618676040993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:00	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:00	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:03	ab03B9011618676043993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:03	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:03	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:07	ab03B9011618676047993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:07	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:07	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:11	ab03B9011618676050993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:11	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:11	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:14	ab03B9011618676054993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:14	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:14	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:18	ab03B9011618676057993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:18	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:18	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:21	ab03B9011618676061993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:21	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:21	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:25	ab03B9011618676064993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:25	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:25	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:28	ab03B9011618676068993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:28	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:28	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:32	ab03B9011618676071993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:32	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:32	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:35	ab03B9011618676075993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:35	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:35	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:39	ab03B9011618676079993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:39	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:39	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:43	ab03B9011618676082993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:43	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:43	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:46	ab03B9011618676086993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:46	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:46	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:50	ab03B9011618676089993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:50	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:50	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:53	ab03B9011618676093993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:53	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:53	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:14:57	ab03B9011618676096993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:14:57	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:14:57	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:15:00	ab03B9011618676100993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:15:00	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:15:00	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:15:03	ab01340116186761030474C842F76C8100000099  on topic: agvHandler
+
+2021-04-17T23:15:03	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:15:09	ab02220116186761091299  on topic: agvHandler
+
+2021-04-17T23:15:09	Recieved login command : ab02220116186761091299
+2021-04-17T23:15:13	ab033601161867611399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:13	Recieved heartbeat command : ab033601161867611399C3903C3600000099
+2021-04-17T23:15:26	ab033601161867611799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:26	Recieved heartbeat command : ab033601161867611799C3903C3600000099
+2021-04-17T23:15:26	ab033601161867612099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:26	Recieved heartbeat command : ab033601161867612099C3903C3600000099
+2021-04-17T23:15:26	ab033601161867612499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:26	Recieved heartbeat command : ab033601161867612499C3903C3600000099
+2021-04-17T23:15:27	ab033601161867612799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:27	Recieved heartbeat command : ab033601161867612799C3903C3600000099
+2021-04-17T23:15:49	ab033601161867613199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:49	Recieved heartbeat command : ab033601161867613199C3903C3600000099
+2021-04-17T23:15:49	ab033601161867613599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:49	Recieved heartbeat command : ab033601161867613599C3903C3600000099
+2021-04-17T23:15:49	ab033601161867613899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:49	Recieved heartbeat command : ab033601161867613899C3903C3600000099
+2021-04-17T23:15:49	ab033601161867614299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:49	Recieved heartbeat command : ab033601161867614299C3903C3600000099
+2021-04-17T23:15:49	ab033601161867614599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:49	Recieved heartbeat command : ab033601161867614599C3903C3600000099
+2021-04-17T23:15:49	ab033601161867614999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:49	Recieved heartbeat command : ab033601161867614999C3903C3600000099
+2021-04-17T23:15:52	ab033601161867615299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:52	Recieved heartbeat command : ab033601161867615299C3903C3600000099
+2021-04-17T23:15:56	ab033601161867615699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:56	Recieved heartbeat command : ab033601161867615699C3903C3600000099
+2021-04-17T23:15:59	ab033601161867615999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:15:59	Recieved heartbeat command : ab033601161867615999C3903C3600000099
+2021-04-17T23:16:03	ab033601161867616399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:03	Recieved heartbeat command : ab033601161867616399C3903C3600000099
+2021-04-17T23:16:07	ab033601161867616699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:07	Recieved heartbeat command : ab033601161867616699C3903C3600000099
+2021-04-17T23:16:10	ab033601161867617099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:10	Recieved heartbeat command : ab033601161867617099C3903C3600000099
+2021-04-17T23:16:14	ab033601161867617399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:14	Recieved heartbeat command : ab033601161867617399C3903C3600000099
+2021-04-17T23:16:17	ab033601161867617799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:17	Recieved heartbeat command : ab033601161867617799C3903C3600000099
+2021-04-17T23:16:21	ab033601161867618099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:21	Recieved heartbeat command : ab033601161867618099C3903C3600000099
+2021-04-17T23:16:24	ab033601161867618499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:24	Recieved heartbeat command : ab033601161867618499C3903C3600000099
+2021-04-17T23:16:28	ab033601161867618799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:28	Recieved heartbeat command : ab033601161867618799C3903C3600000099
+2021-04-17T23:16:31	ab033601161867619199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:31	Recieved heartbeat command : ab033601161867619199C3903C3600000099
+2021-04-17T23:16:35	ab033601161867619499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:35	Recieved heartbeat command : ab033601161867619499C3903C3600000099
+2021-04-17T23:16:38	ab033601161867619899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:39	Recieved heartbeat command : ab033601161867619899C3903C3600000099
+2021-04-17T23:16:42	ab033601161867620199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:42	Recieved heartbeat command : ab033601161867620199C3903C3600000099
+2021-04-17T23:16:46	ab033601161867620599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:46	Recieved heartbeat command : ab033601161867620599C3903C3600000099
+2021-04-17T23:16:49	ab033601161867620999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:49	Recieved heartbeat command : ab033601161867620999C3903C3600000099
+2021-04-17T23:16:53	ab033601161867621299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:53	Recieved heartbeat command : ab033601161867621299C3903C3600000099
+2021-04-17T23:16:56	ab033601161867621699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:16:56	Recieved heartbeat command : ab033601161867621699C3903C3600000099
+2021-04-17T23:17:00	ab033601161867621999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:00	Recieved heartbeat command : ab033601161867621999C3903C3600000099
+2021-04-17T23:17:03	ab033601161867622399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:03	Recieved heartbeat command : ab033601161867622399C3903C3600000099
+2021-04-17T23:17:07	ab033601161867622699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:07	Recieved heartbeat command : ab033601161867622699C3903C3600000099
+2021-04-17T23:17:10	ab033601161867623099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:10	Recieved heartbeat command : ab033601161867623099C3903C3600000099
+2021-04-17T23:17:14	ab033601161867623399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:14	Recieved heartbeat command : ab033601161867623399C3903C3600000099
+2021-04-17T23:17:18	ab033601161867623799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:18	Recieved heartbeat command : ab033601161867623799C3903C3600000099
+2021-04-17T23:17:21	ab033601161867624099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:21	Recieved heartbeat command : ab033601161867624099C3903C3600000099
+2021-04-17T23:17:25	ab033601161867624499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:25	Recieved heartbeat command : ab033601161867624499C3903C3600000099
+2021-04-17T23:17:28	ab033601161867624799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:28	Recieved heartbeat command : ab033601161867624799C3903C3600000099
+2021-04-17T23:17:32	ab033601161867625199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:32	Recieved heartbeat command : ab033601161867625199C3903C3600000099
+2021-04-17T23:17:35	ab033601161867625499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:35	Recieved heartbeat command : ab033601161867625499C3903C3600000099
+2021-04-17T23:17:39	ab033601161867625899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:39	Recieved heartbeat command : ab033601161867625899C3903C3600000099
+2021-04-17T23:17:42	ab033601161867626199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:42	Recieved heartbeat command : ab033601161867626199C3903C3600000099
+2021-04-17T23:17:46	ab033601161867626599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:46	Recieved heartbeat command : ab033601161867626599C3903C3600000099
+2021-04-17T23:17:49	ab033601161867626999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:49	Recieved heartbeat command : ab033601161867626999C3903C3600000099
+2021-04-17T23:17:53	ab033601161867627299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:53	Recieved heartbeat command : ab033601161867627299C3903C3600000099
+2021-04-17T23:17:57	ab033601161867627699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:17:57	Recieved heartbeat command : ab033601161867627699C3903C3600000099
+2021-04-17T23:18:00	ab033601161867627999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:00	Recieved heartbeat command : ab033601161867627999C3903C3600000099
+2021-04-17T23:18:04	ab033601161867628399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:04	Recieved heartbeat command : ab033601161867628399C3903C3600000099
+2021-04-17T23:18:07	ab033601161867628699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:07	Recieved heartbeat command : ab033601161867628699C3903C3600000099
+2021-04-17T23:18:11	ab033601161867629199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:11	Recieved heartbeat command : ab033601161867629199C3903C3600000099
+2021-04-17T23:18:14	ab033601161867629499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:14	Recieved heartbeat command : ab033601161867629499C3903C3600000099
+2021-04-17T23:18:18	ab033601161867629899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:18	Recieved heartbeat command : ab033601161867629899C3903C3600000099
+2021-04-17T23:18:21	ab033601161867630199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:21	Recieved heartbeat command : ab033601161867630199C3903C3600000099
+2021-04-17T23:18:25	ab033601161867630599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:25	Recieved heartbeat command : ab033601161867630599C3903C3600000099
+2021-04-17T23:18:29	ab033601161867630899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:29	Recieved heartbeat command : ab033601161867630899C3903C3600000099
+2021-04-17T23:18:32	ab033601161867631299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:32	Recieved heartbeat command : ab033601161867631299C3903C3600000099
+2021-04-17T23:18:36	ab033601161867631599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:36	Recieved heartbeat command : ab033601161867631599C3903C3600000099
+2021-04-17T23:18:39	ab033601161867631999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:39	Recieved heartbeat command : ab033601161867631999C3903C3600000099
+2021-04-17T23:18:43	ab033601161867632299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:43	Recieved heartbeat command : ab033601161867632299C3903C3600000099
+2021-04-17T23:18:46	ab033601161867632699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:46	Recieved heartbeat command : ab033601161867632699C3903C3600000099
+2021-04-17T23:18:50	ab033601161867633099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:50	Recieved heartbeat command : ab033601161867633099C3903C3600000099
+2021-04-17T23:18:53	ab033601161867633399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:53	Recieved heartbeat command : ab033601161867633399C3903C3600000099
+2021-04-17T23:18:57	ab033601161867633799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:18:57	Recieved heartbeat command : ab033601161867633799C3903C3600000099
+2021-04-17T23:19:00	ab033601161867634099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:00	Recieved heartbeat command : ab033601161867634099C3903C3600000099
+2021-04-17T23:19:04	ab033601161867634499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:04	Recieved heartbeat command : ab033601161867634499C3903C3600000099
+2021-04-17T23:19:07	ab033601161867634799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:07	Recieved heartbeat command : ab033601161867634799C3903C3600000099
+2021-04-17T23:19:11	ab033601161867635199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:11	Recieved heartbeat command : ab033601161867635199C3903C3600000099
+2021-04-17T23:19:15	ab033601161867635499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:15	Recieved heartbeat command : ab033601161867635499C3903C3600000099
+2021-04-17T23:19:18	ab033601161867635899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:18	Recieved heartbeat command : ab033601161867635899C3903C3600000099
+2021-04-17T23:19:22	ab033601161867636199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:22	Recieved heartbeat command : ab033601161867636199C3903C3600000099
+2021-04-17T23:19:25	ab033601161867636599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:25	Recieved heartbeat command : ab033601161867636599C3903C3600000099
+2021-04-17T23:19:29	ab033601161867636899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:29	Recieved heartbeat command : ab033601161867636899C3903C3600000099
+2021-04-17T23:19:32	ab033601161867637299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:32	Recieved heartbeat command : ab033601161867637299C3903C3600000099
+2021-04-17T23:19:36	ab033601161867637599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:36	Recieved heartbeat command : ab033601161867637599C3903C3600000099
+2021-04-17T23:19:40	ab033601161867637999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:40	Recieved heartbeat command : ab033601161867637999C3903C3600000099
+2021-04-17T23:19:45	ab033601161867638399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:45	Recieved heartbeat command : ab033601161867638399C3903C3600000099
+2021-04-17T23:19:47	ab033601161867638699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:47	Recieved heartbeat command : ab033601161867638699C3903C3600000099
+2021-04-17T23:19:50	ab033601161867639099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:50	Recieved heartbeat command : ab033601161867639099C3903C3600000099
+2021-04-17T23:19:54	ab033601161867639399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:54	Recieved heartbeat command : ab033601161867639399C3903C3600000099
+2021-04-17T23:19:57	ab033601161867639799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:19:57	Recieved heartbeat command : ab033601161867639799C3903C3600000099
+2021-04-17T23:20:01	ab033601161867640099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:01	Recieved heartbeat command : ab033601161867640099C3903C3600000099
+2021-04-17T23:20:04	ab033601161867640499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:04	Recieved heartbeat command : ab033601161867640499C3903C3600000099
+2021-04-17T23:20:08	ab033601161867640799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:08	Recieved heartbeat command : ab033601161867640799C3903C3600000099
+2021-04-17T23:20:12	ab033601161867641199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:12	Recieved heartbeat command : ab033601161867641199C3903C3600000099
+2021-04-17T23:20:15	ab033601161867641499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:15	Recieved heartbeat command : ab033601161867641499C3903C3600000099
+2021-04-17T23:20:19	ab033601161867641899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:19	Recieved heartbeat command : ab033601161867641899C3903C3600000099
+2021-04-17T23:20:22	ab033601161867642199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:22	Recieved heartbeat command : ab033601161867642199C3903C3600000099
+2021-04-17T23:20:26	ab033601161867642599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:26	Recieved heartbeat command : ab033601161867642599C3903C3600000099
+2021-04-17T23:20:29	ab033601161867642899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:29	Recieved heartbeat command : ab033601161867642899C3903C3600000099
+2021-04-17T23:20:33	ab033601161867643299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:33	Recieved heartbeat command : ab033601161867643299C3903C3600000099
+2021-04-17T23:20:36	ab033601161867643599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:36	Recieved heartbeat command : ab033601161867643599C3903C3600000099
+2021-04-17T23:20:40	ab033601161867643999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:40	Recieved heartbeat command : ab033601161867643999C3903C3600000099
+2021-04-17T23:20:43	ab033601161867644399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:44	Recieved heartbeat command : ab033601161867644399C3903C3600000099
+2021-04-17T23:20:47	ab033601161867644699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:47	Recieved heartbeat command : ab033601161867644699C3903C3600000099
+2021-04-17T23:20:51	ab033601161867645099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:51	Recieved heartbeat command : ab033601161867645099C3903C3600000099
+2021-04-17T23:20:54	ab033601161867645399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:54	Recieved heartbeat command : ab033601161867645399C3903C3600000099
+2021-04-17T23:20:58	ab033601161867645799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:20:58	Recieved heartbeat command : ab033601161867645799C3903C3600000099
+2021-04-17T23:21:01	ab033601161867646099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:01	Recieved heartbeat command : ab033601161867646099C3903C3600000099
+2021-04-17T23:21:05	ab033601161867646499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:05	Recieved heartbeat command : ab033601161867646499C3903C3600000099
+2021-04-17T23:21:08	ab033601161867646799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:08	Recieved heartbeat command : ab033601161867646799C3903C3600000099
+2021-04-17T23:21:12	ab033601161867647299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:12	Recieved heartbeat command : ab033601161867647299C3903C3600000099
+2021-04-17T23:21:15	ab033601161867647599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:15	Recieved heartbeat command : ab033601161867647599C3903C3600000099
+2021-04-17T23:21:19	ab033601161867647999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:19	Recieved heartbeat command : ab033601161867647999C3903C3600000099
+2021-04-17T23:21:23	ab033601161867648299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:23	Recieved heartbeat command : ab033601161867648299C3903C3600000099
+2021-04-17T23:21:26	ab033601161867648699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:26	Recieved heartbeat command : ab033601161867648699C3903C3600000099
+2021-04-17T23:21:30	ab033601161867648999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:30	Recieved heartbeat command : ab033601161867648999C3903C3600000099
+2021-04-17T23:21:33	ab033601161867649399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:33	Recieved heartbeat command : ab033601161867649399C3903C3600000099
+2021-04-17T23:21:37	ab033601161867649699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:37	Recieved heartbeat command : ab033601161867649699C3903C3600000099
+2021-04-17T23:21:40	ab033601161867650099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:40	Recieved heartbeat command : ab033601161867650099C3903C3600000099
+2021-04-17T23:21:44	ab033601161867650399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:44	Recieved heartbeat command : ab033601161867650399C3903C3600000099
+2021-04-17T23:21:47	ab033601161867650799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:47	Recieved heartbeat command : ab033601161867650799C3903C3600000099
+2021-04-17T23:21:51	ab033601161867651199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:51	Recieved heartbeat command : ab033601161867651199C3903C3600000099
+2021-04-17T23:21:54	ab033601161867651499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:54	Recieved heartbeat command : ab033601161867651499C3903C3600000099
+2021-04-17T23:21:58	ab033601161867651899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:21:58	Recieved heartbeat command : ab033601161867651899C3903C3600000099
+2021-04-17T23:22:02	ab033601161867652199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:02	Recieved heartbeat command : ab033601161867652199C3903C3600000099
+2021-04-17T23:22:05	ab033601161867652599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:05	Recieved heartbeat command : ab033601161867652599C3903C3600000099
+2021-04-17T23:22:09	ab033601161867652899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:09	Recieved heartbeat command : ab033601161867652899C3903C3600000099
+2021-04-17T23:22:12	ab033601161867653299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:12	Recieved heartbeat command : ab033601161867653299C3903C3600000099
+2021-04-17T23:22:16	ab033601161867653599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:16	Recieved heartbeat command : ab033601161867653599C3903C3600000099
+2021-04-17T23:22:19	ab033601161867653999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:19	Recieved heartbeat command : ab033601161867653999C3903C3600000099
+2021-04-17T23:22:23	ab033601161867654299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:23	Recieved heartbeat command : ab033601161867654299C3903C3600000099
+2021-04-17T23:22:26	ab033601161867654699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:26	Recieved heartbeat command : ab033601161867654699C3903C3600000099
+2021-04-17T23:22:30	ab033601161867654999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:22:30	Recieved heartbeat command : ab033601161867654999C3903C3600000099
+2021-04-17T23:23:21	ab022201171299  on topic: agvHandler
+
+2021-04-17T23:23:21	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:23:30	ab033601161867660599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:23:30	Recieved heartbeat command : ab033601161867660599C3903C3600000099
+2021-04-17T23:23:30	ab033601161867660899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:23:30	Recieved heartbeat command : ab033601161867660899C3903C3600000099
+2021-04-17T23:23:32	ab033601161867661299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:23:32	Recieved heartbeat command : ab033601161867661299C3903C3600000099
+2021-04-17T23:23:33	ab01340116186766133066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:23:33	Recieved meet new RFID command : ab01340116186766133066B1B900000099
+2021-04-17T23:23:36	ab03B9011618676615993066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:23:36	System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AgvPlanningModule.DataProcessing.ValidDataCommand(String rawData, Dictionary`2 dataHeader) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 56
+2021-04-17T23:23:36	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:23:38	ab01340116186766180481CA42F76C8100000099  on topic: agvHandler
+
+2021-04-17T23:23:38	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:23:39	ab0342F76C81011618676619990481CA42F76C8100000099  on topic: agvHandler
+
+2021-04-17T23:23:39	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:23:53	ab02220116186766331299  on topic: agvHandler
+
+2021-04-17T23:23:54	Recieved login command : ab02220116186766331299
+2021-04-17T23:23:57	ab033601161867663699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:23:57	Recieved heartbeat command : ab033601161867663699C3903C3600000099
+2021-04-17T23:24:01	ab033601161867664099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:01	Recieved heartbeat command : ab033601161867664099C3903C3600000099
+2021-04-17T23:24:04	ab033601161867664499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:04	Recieved heartbeat command : ab033601161867664499C3903C3600000099
+2021-04-17T23:24:08	ab033601161867664799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:08	Recieved heartbeat command : ab033601161867664799C3903C3600000099
+2021-04-17T23:24:12	ab033601161867665199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:12	Recieved heartbeat command : ab033601161867665199C3903C3600000099
+2021-04-17T23:24:15	ab033601161867665499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:15	Recieved heartbeat command : ab033601161867665499C3903C3600000099
+2021-04-17T23:24:19	ab033601161867665899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:19	Recieved heartbeat command : ab033601161867665899C3903C3600000099
+2021-04-17T23:24:22	ab033601161867666199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:22	Recieved heartbeat command : ab033601161867666199C3903C3600000099
+2021-04-17T23:24:26	ab033601161867666599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:26	Recieved heartbeat command : ab033601161867666599C3903C3600000099
+2021-04-17T23:24:29	ab033601161867666899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:29	Recieved heartbeat command : ab033601161867666899C3903C3600000099
+2021-04-17T23:24:33	ab033601161867667299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:33	Recieved heartbeat command : ab033601161867667299C3903C3600000099
+2021-04-17T23:24:36	ab033601161867667599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:36	Recieved heartbeat command : ab033601161867667599C3903C3600000099
+2021-04-17T23:24:40	ab033601161867667999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:40	Recieved heartbeat command : ab033601161867667999C3903C3600000099
+2021-04-17T23:24:43	ab033601161867668399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:43	Recieved heartbeat command : ab033601161867668399C3903C3600000099
+2021-04-17T23:24:47	ab033601161867668699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:47	Recieved heartbeat command : ab033601161867668699C3903C3600000099
+2021-04-17T23:24:51	ab033601161867669099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:51	Recieved heartbeat command : ab033601161867669099C3903C3600000099
+2021-04-17T23:24:54	ab033601161867669499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:54	Recieved heartbeat command : ab033601161867669499C3903C3600000099
+2021-04-17T23:24:58	ab033601161867669799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:24:58	Recieved heartbeat command : ab033601161867669799C3903C3600000099
+2021-04-17T23:25:01	ab033601161867670199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:01	Recieved heartbeat command : ab033601161867670199C3903C3600000099
+2021-04-17T23:25:05	ab033601161867670499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:05	Recieved heartbeat command : ab033601161867670499C3903C3600000099
+2021-04-17T23:25:08	ab033601161867670899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:08	Recieved heartbeat command : ab033601161867670899C3903C3600000099
+2021-04-17T23:25:12	ab033601161867671199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:12	Recieved heartbeat command : ab033601161867671199C3903C3600000099
+2021-04-17T23:25:15	ab033601161867671599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:15	Recieved heartbeat command : ab033601161867671599C3903C3600000099
+2021-04-17T23:25:19	ab033601161867671899C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:19	Recieved heartbeat command : ab033601161867671899C3903C3600000099
+2021-04-17T23:25:23	ab033601161867672299C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:23	Recieved heartbeat command : ab033601161867672299C3903C3600000099
+2021-04-17T23:25:26	ab033601161867672599C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:26	Recieved heartbeat command : ab033601161867672599C3903C3600000099
+2021-04-17T23:25:30	ab033601161867672999C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:30	Recieved heartbeat command : ab033601161867672999C3903C3600000099
+2021-04-17T23:25:33	ab033601161867673399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:33	Recieved heartbeat command : ab033601161867673399C3903C3600000099
+2021-04-17T23:25:37	ab033601161867673699C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:37	Recieved heartbeat command : ab033601161867673699C3903C3600000099
+2021-04-17T23:25:40	ab033601161867674099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:40	Recieved heartbeat command : ab033601161867674099C3903C3600000099
+2021-04-17T23:25:44	ab033601161867674399C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:44	Recieved heartbeat command : ab033601161867674399C3903C3600000099
+2021-04-17T23:25:47	ab033601161867674799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:47	Recieved heartbeat command : ab033601161867674799C3903C3600000099
+2021-04-17T23:25:51	ab033601161867675099C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:51	Recieved heartbeat command : ab033601161867675099C3903C3600000099
+2021-04-17T23:25:55	ab033601161867675499C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:55	Recieved heartbeat command : ab033601161867675499C3903C3600000099
+2021-04-17T23:25:58	ab033601161867675799C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:25:58	Recieved heartbeat command : ab033601161867675799C3903C3600000099
+2021-04-17T23:26:02	ab033601161867676199C3903C3600000099  on topic: agvHandler
+
+2021-04-17T23:26:02	Recieved heartbeat command : ab033601161867676199C3903C3600000099
+2021-04-17T23:26:56	ab022201161299  on topic: agvHandler
+
+2021-04-17T23:26:56	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:27:10	ab02220116186768291299  on topic: agvHandler
+
+2021-04-17T23:27:10	Recieved login command : ab02220116186768291299
+2021-04-17T23:27:59	ab01340116186768780474C842F76C8100000099  on topic: agvHandler
+
+2021-04-17T23:27:59	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:28:04	ab01340116186768830481CA42F76C8100000099  on topic: agvHandler
+
+2021-04-17T23:28:04	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:39:12	ab02220116186775511299  on topic: agvHandler
+
+2021-04-17T23:39:12	Recieved login command : ab02220116186775511299
+2021-04-17T23:40:03	ab02220116186776031299  on topic: agvHandler
+
+2021-04-17T23:40:03	Recieved login command : ab02220116186776031299
+2021-04-17T23:41:04	ab02220116186776611299  on topic: agvHandler
+
+2021-04-17T23:41:04	Recieved login command : ab02220116186776611299
+2021-04-17T23:44:43	ab022201131299  on topic: agvHandler
+
+2021-04-17T23:44:43	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:45:53	ab02220116186779531299  on topic: agvHandler
+
+2021-04-17T23:45:53	Recieved login command : ab02220116186779531299
+2021-04-17T23:51:20	ab02220116186782801299  on topic: agvHandler
+
+2021-04-17T23:51:20	Recieved login command : ab02220116186782801299
+2021-04-17T23:51:25	ab01340116186782840481CA42F76C8100000099  on topic: agvHandler
+
+2021-04-17T23:51:25	System.ArithmeticException: Invalid command data
+   at AgvPlanningModule.DataProcessing.ParseDataCommand(String rawData) in D:\AGV3.0\AGV3.0\Source code\2021\AGV_3.0_source_code_2021\PlanningModule\AgvPlanningModule\DataProcessing.cs:line 80
+2021-04-17T23:51:28	ab01340116186782883066B1B900000099  on topic: agvHandler
+
+2021-04-17T23:51:28	Recieved meet new RFID command : ab01340116186782883066B1B900000099
+2021-04-17T23:52:36	ab02220116186783551299  on topic: agvHandler
+
+2021-04-17T23:52:36	Recieved login command : ab02220116186783551299
+2021-04-17T23:53:47	ab02220116186784261299  on topic: agvHandler
+
+2021-04-17T23:53:47	Recieved login command : ab02220116186784261299
+2021-04-17T23:55:31	ab02220116186785311299  on topic: agvHandler
+
+2021-04-17T23:55:31	Recieved login command : ab02220116186785311299
+2021-04-17T23:56:01	ab02220116186785611299  on topic: agvHandler
+
+2021-04-17T23:56:01	Recieved login command : ab02220116186785611299

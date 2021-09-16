@@ -1,0 +1,12 @@
+{
+  "mqtt": {
+    "host": "127.0.0.1",
+    "port": 1883,
+    "account": "lam",
+    "password": "a",
+    "topic": "agvWorker1"
+  },
+  "agv_name": "AGV_01",
+  "agv_id": "01",
+  "cam_ip": "http://192.168.1.9/stream"
+}

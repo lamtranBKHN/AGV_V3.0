@@ -1,0 +1,4 @@
+systemCommand.cpp:17:6:void startUpInit()	4	static
+systemCommand.cpp:23:6:void startSystem()	16	static
+systemCommand.cpp:31:6:void stopSystem()	8	static
+systemCommand.cpp:39:6:void powerOffSystem()	8	static

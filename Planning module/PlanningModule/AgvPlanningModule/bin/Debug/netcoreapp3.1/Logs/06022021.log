@@ -1,0 +1,277 @@
+
+2021-06-02T17:16:02				--------------------------------
+2021-06-02T17:16:02	Starting planning module ...
+2021-06-02T17:16:06	Connecting to AGV 1 ...
+2021-06-02T17:16:06	Done
+2021-06-02T17:16:06	Connecting to AGV 2 ...
+2021-06-02T17:16:06	Done
+2021-06-02T17:16:06	Connecting to AGV 3 ...
+2021-06-02T17:16:06	Done
+2021-06-02T17:16:06	Connecting to AGV 4 ...
+2021-06-02T17:16:06	Done
+2021-06-02T17:16:06	Planning module is running...
+2021-06-02T17:16:16	17_27  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:16:16	Received request carrying POD 17 to node 27
+2021-06-02T17:16:16	Finding nearest available AGV ...
+2021-06-02T17:16:16	Shortest Distance from 27 to 36: 2
+2021-06-02T17:16:16	Shortest Distance from 27 to 85: 8
+2021-06-02T17:16:16	Shortest Distance from 27 to 32: 10
+2021-06-02T17:16:16	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:16:16	Found best route which distance is: 2
+2021-06-02T17:16:16	Route path is: 27 <-  26 <- 36
+2021-06-02T17:16:16	Found best route which distance is: 0
+2021-06-02T17:16:16	Route path is:27
+2021-06-02T17:17:27	17_27  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:17:27	Received request carrying POD 17 to node 27
+2021-06-02T17:17:27	Finding nearest available AGV ...
+2021-06-02T17:17:27	Shortest Distance from 27 to 36: 2
+2021-06-02T17:17:27	Shortest Distance from 27 to 85: 8
+2021-06-02T17:17:27	Shortest Distance from 27 to 32: 10
+2021-06-02T17:17:27	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:17:27	Found best route which distance is: 2
+2021-06-02T17:17:27	Route path is: 27 <-  26 <- 36
+2021-06-02T17:17:27	Found best route which distance is: 0
+2021-06-02T17:17:27	Route path is:27
+2021-06-02T17:17:54	17_27  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:17:54	Received request carrying POD 17 to node 27
+2021-06-02T17:17:54	Finding nearest available AGV ...
+2021-06-02T17:17:54	Shortest Distance from 27 to 36: 2
+2021-06-02T17:17:54	Shortest Distance from 27 to 85: 8
+2021-06-02T17:17:55	Shortest Distance from 27 to 32: 10
+2021-06-02T17:17:55	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:17:55	Found best route which distance is: 2
+2021-06-02T17:17:55	Route path is: 27 <-  26 <- 36
+2021-06-02T17:17:55	Found best route which distance is: 0
+2021-06-02T17:17:55	Route path is:27
+2021-06-02T17:18:23	17_27  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:18:23	Received request carrying POD 17 to node 27
+2021-06-02T17:18:23	Finding nearest available AGV ...
+2021-06-02T17:18:23	Shortest Distance from 27 to 36: 2
+2021-06-02T17:18:23	Shortest Distance from 27 to 85: 8
+2021-06-02T17:18:23	Shortest Distance from 27 to 32: 10
+2021-06-02T17:18:24	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:18:24	Found best route which distance is: 2
+2021-06-02T17:18:24	Route path is: 27 <-  26 <- 36
+2021-06-02T17:18:24	Found best route which distance is: 0
+2021-06-02T17:18:24	Route path is:27
+2021-06-02T17:24:14	17_28  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:24:14	Received request carrying POD 17 to node 28
+2021-06-02T17:24:14	Finding nearest available AGV ...
+2021-06-02T17:24:14	Shortest Distance from 27 to 36: 2
+2021-06-02T17:24:14	Shortest Distance from 27 to 85: 8
+2021-06-02T17:24:14	Shortest Distance from 27 to 32: 10
+2021-06-02T17:24:14	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:24:14	Found best route which distance is: 2
+2021-06-02T17:24:14	Route path is: 27 <-  26 <- 36
+2021-06-02T17:24:14	Found best route which distance is: 1
+2021-06-02T17:24:14	Route path is: 28 <- 27
+2021-06-02T17:25:06	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:25:06	Received request carrying POD 11 to node 68
+2021-06-02T17:25:06	Finding nearest available AGV ...
+2021-06-02T17:25:06	Shortest Distance from 72 to 36: 8
+2021-06-02T17:25:06	Shortest Distance from 72 to 85: 4
+2021-06-02T17:25:06	Shortest Distance from 72 to 32: 6
+2021-06-02T17:25:06	Select nearest AGV 2 which is 4 away from POD 11
+2021-06-02T17:25:06	Found best route which distance is: 4
+2021-06-02T17:25:06	Route path is: 72 <-  73 <-  83 <-  84 <- 85
+2021-06-02T17:25:06	Found best route which distance is: 7
+2021-06-02T17:25:06	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-06-02T17:25:08	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:25:08	Received request carrying POD 11 to node 68
+2021-06-02T17:25:08	Finding nearest available AGV ...
+2021-06-02T17:25:08	Shortest Distance from 72 to 36: 8
+2021-06-02T17:25:08	Shortest Distance from 72 to 32: 6
+2021-06-02T17:25:08	Select nearest AGV 3 which is 6 away from POD 11
+2021-06-02T17:25:08	Found best route which distance is: 6
+2021-06-02T17:25:08	Route path is: 72 <-  73 <-  63 <-  53 <-  43 <-  33 <- 32
+2021-06-02T17:25:08	Found best route which distance is: 7
+2021-06-02T17:25:08	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-06-02T17:25:16	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:25:16	Received request carrying POD 11 to node 68
+2021-06-02T17:25:16	Finding nearest available AGV ...
+2021-06-02T17:25:16	Shortest Distance from 72 to 36: 8
+2021-06-02T17:25:16	Select nearest AGV 1 which is 8 away from POD 11
+2021-06-02T17:25:16	Found best route which distance is: 8
+2021-06-02T17:25:16	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-06-02T17:25:16	Found best route which distance is: 7
+2021-06-02T17:25:16	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-06-02T17:25:47	12_18  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:25:47	Received request carrying POD 12 to node 18
+2021-06-02T17:25:47	Finding nearest available AGV ...
+2021-06-02T17:25:47	Shortest Distance from 11 to 36: 9
+2021-06-02T17:25:47	Select nearest AGV 1 which is 9 away from POD 12
+2021-06-02T17:25:47	Found best route which distance is: 9
+2021-06-02T17:25:47	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-06-02T17:25:47	Found best route which distance is: 19
+2021-06-02T17:25:47	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+2021-06-02T17:26:28	9_58  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:26:28	Received request carrying POD 9 to node 58
+2021-06-02T17:26:28	Finding nearest available AGV ...
+2021-06-02T17:26:28	Shortest Distance from 71 to 36: 9
+2021-06-02T17:26:28	Select nearest AGV 1 which is 9 away from POD 9
+2021-06-02T17:26:28	Found best route which distance is: 9
+2021-06-02T17:26:28	Route path is: 71 <-  61 <-  62 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-06-02T17:26:28	Found best route which distance is: 9
+2021-06-02T17:26:28	Route path is: 58 <-  57 <-  67 <-  66 <-  65 <-  64 <-  63 <-  62 <-  61 <- 71
+2021-06-02T17:26:54	17_28  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:26:54	Received request carrying POD 17 to node 28
+2021-06-02T17:26:54	Finding nearest available AGV ...
+2021-06-02T17:26:54	Shortest Distance from 27 to 36: 2
+2021-06-02T17:26:54	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:26:54	Found best route which distance is: 2
+2021-06-02T17:26:54	Route path is: 27 <-  26 <- 36
+2021-06-02T17:26:54	Found best route which distance is: 1
+2021-06-02T17:26:54	Route path is: 28 <- 27
+2021-06-02T17:27:39	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:27:39	Received request carrying POD 11 to node 68
+2021-06-02T17:27:39	Finding nearest available AGV ...
+2021-06-02T17:27:39	Shortest Distance from 72 to 36: 8
+2021-06-02T17:27:39	Select nearest AGV 1 which is 8 away from POD 11
+2021-06-02T17:27:39	Found best route which distance is: 8
+2021-06-02T17:27:39	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-06-02T17:27:39	Found best route which distance is: 7
+2021-06-02T17:27:39	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-06-02T17:29:43	17_28  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:29:43	Received request carrying POD 17 to node 28
+2021-06-02T17:29:43	Finding nearest available AGV ...
+2021-06-02T17:29:43	Shortest Distance from 27 to 36: 2
+2021-06-02T17:29:43	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:29:43	Found best route which distance is: 2
+2021-06-02T17:29:43	Route path is: 27 <-  26 <- 36
+2021-06-02T17:29:43	Found best route which distance is: 1
+2021-06-02T17:29:43	Route path is: 28 <- 27
+2021-06-02T17:30:07	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:30:07	Received request carrying POD 11 to node 68
+2021-06-02T17:30:07	Finding nearest available AGV ...
+2021-06-02T17:30:07	Shortest Distance from 72 to 36: 8
+2021-06-02T17:30:07	Select nearest AGV 1 which is 8 away from POD 11
+2021-06-02T17:30:07	Found best route which distance is: 8
+2021-06-02T17:30:07	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-06-02T17:30:07	Found best route which distance is: 7
+2021-06-02T17:30:07	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-06-02T17:39:06	17_28  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:39:06	Received request carrying POD 17 to node 28
+2021-06-02T17:39:07	Finding nearest available AGV ...
+2021-06-02T17:39:07	Shortest Distance from 27 to 36: 2
+2021-06-02T17:39:07	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:39:07	Found best route which distance is: 2
+2021-06-02T17:39:07	Route path is: 27 <-  26 <- 36
+2021-06-02T17:39:07	Found best route which distance is: 1
+2021-06-02T17:39:07	Route path is: 28 <- 27
+2021-06-02T17:39:18	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:39:18	Received request carrying POD 11 to node 68
+2021-06-02T17:39:18	Finding nearest available AGV ...
+2021-06-02T17:39:18	Shortest Distance from 72 to 36: 8
+2021-06-02T17:39:18	Select nearest AGV 1 which is 8 away from POD 11
+2021-06-02T17:39:18	Found best route which distance is: 8
+2021-06-02T17:39:18	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-06-02T17:39:18	Found best route which distance is: 7
+2021-06-02T17:39:18	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-06-02T17:39:55	17_28  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:39:55	Received request carrying POD 17 to node 28
+2021-06-02T17:39:55	Finding nearest available AGV ...
+2021-06-02T17:39:55	Shortest Distance from 27 to 36: 2
+2021-06-02T17:39:55	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:39:55	Found best route which distance is: 2
+2021-06-02T17:39:55	Route path is: 27 <-  26 <- 36
+2021-06-02T17:39:55	Found best route which distance is: 1
+2021-06-02T17:39:55	Route path is: 28 <- 27
+2021-06-02T17:40:09	17_28  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:40:09	Received request carrying POD 17 to node 28
+2021-06-02T17:40:09	Finding nearest available AGV ...
+2021-06-02T17:40:09	Shortest Distance from 27 to 36: 2
+2021-06-02T17:40:09	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:40:09	Found best route which distance is: 2
+2021-06-02T17:40:09	Route path is: 27 <-  26 <- 36
+2021-06-02T17:40:09	Found best route which distance is: 1
+2021-06-02T17:40:09	Route path is: 28 <- 27
+2021-06-02T17:40:13	17_28  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:40:13	Received request carrying POD 17 to node 28
+2021-06-02T17:40:13	Finding nearest available AGV ...
+2021-06-02T17:40:13	Shortest Distance from 27 to 36: 2
+2021-06-02T17:40:13	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:40:13	Found best route which distance is: 2
+2021-06-02T17:40:13	Route path is: 27 <-  26 <- 36
+2021-06-02T17:40:13	Found best route which distance is: 1
+2021-06-02T17:40:13	Route path is: 28 <- 27
+2021-06-02T17:40:58	17_28  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:40:58	Received request carrying POD 17 to node 28
+2021-06-02T17:40:58	Finding nearest available AGV ...
+2021-06-02T17:40:58	Shortest Distance from 27 to 36: 2
+2021-06-02T17:40:58	Select nearest AGV 1 which is 2 away from POD 17
+2021-06-02T17:40:58	Found best route which distance is: 2
+2021-06-02T17:40:58	Route path is: 27 <-  26 <- 36
+2021-06-02T17:40:58	Found best route which distance is: 1
+2021-06-02T17:40:58	Route path is: 28 <- 27
+2021-06-02T17:41:00	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:41:00	Received request carrying POD 11 to node 68
+2021-06-02T17:41:00	Finding nearest available AGV ...
+2021-06-02T17:41:00	Shortest Distance from 72 to 36: 8
+2021-06-02T17:41:00	Select nearest AGV 1 which is 8 away from POD 11
+2021-06-02T17:41:00	Found best route which distance is: 8
+2021-06-02T17:41:01	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-06-02T17:41:01	Found best route which distance is: 7
+2021-06-02T17:41:01	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-06-02T17:42:01	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:42:01	Received request carrying POD 11 to node 68
+2021-06-02T17:42:01	Finding nearest available AGV ...
+2021-06-02T17:42:01	Shortest Distance from 72 to 36: 8
+2021-06-02T17:42:01	Select nearest AGV 1 which is 8 away from POD 11
+2021-06-02T17:42:01	Found best route which distance is: 8
+2021-06-02T17:42:01	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-06-02T17:42:01	Found best route which distance is: 7
+2021-06-02T17:42:01	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72
+2021-06-02T17:44:27	12_18  on topic: dashboardPodCarryingRequest
+
+2021-06-02T17:44:27	Received request carrying POD 12 to node 18
+2021-06-02T17:44:27	Finding nearest available AGV ...
+2021-06-02T17:44:27	Shortest Distance from 11 to 36: 9
+2021-06-02T17:44:27	Select nearest AGV 1 which is 9 away from POD 12
+2021-06-02T17:44:27	Found best route which distance is: 9
+2021-06-02T17:44:27	Route path is: 11 <-  1 <-  2 <-  3 <-  4 <-  5 <-  6 <-  16 <-  26 <- 36
+2021-06-02T17:44:27	Found best route which distance is: 19
+2021-06-02T17:44:27	Route path is: 18 <-  28 <-  38 <-  37 <-  47 <-  46 <-  56 <-  66 <-  65 <-  64 <-  63 <-  53 <-  43 <-  33 <-  23 <-  13 <-  3 <-  2 <-  1 <- 11
+
+2021-06-02T23:30:22				--------------------------------
+2021-06-02T23:30:22	Starting planning module ...
+2021-06-02T23:30:24	Connecting to AGV 1 ...
+2021-06-02T23:30:24	Done
+2021-06-02T23:30:24	Connecting to AGV 2 ...
+2021-06-02T23:30:24	Done
+2021-06-02T23:30:24	Connecting to AGV 3 ...
+2021-06-02T23:30:24	Done
+2021-06-02T23:30:24	Connecting to AGV 4 ...
+2021-06-02T23:30:24	Done
+2021-06-02T23:30:24	Planning module is running...
+2021-06-02T23:30:32	11_68  on topic: dashboardPodCarryingRequest
+
+2021-06-02T23:30:32	Received request carrying POD 11 to node 68
+2021-06-02T23:30:32	Finding nearest available AGV ...
+2021-06-02T23:30:32	Shortest Distance from 72 to 36: 8
+2021-06-02T23:30:32	Select nearest AGV 1 which is 8 away from POD 11
+2021-06-02T23:30:32	Found best route which distance is: 8
+2021-06-02T23:30:32	Route path is: 72 <-  73 <-  63 <-  64 <-  65 <-  66 <-  56 <-  46 <- 36
+2021-06-02T23:30:32	Found best route which distance is: 7
+2021-06-02T23:30:32	Route path is: 68 <-  67 <-  77 <-  76 <-  75 <-  74 <-  73 <- 72

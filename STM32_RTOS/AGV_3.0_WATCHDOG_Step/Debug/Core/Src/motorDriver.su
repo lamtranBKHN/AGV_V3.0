@@ -1,0 +1,8 @@
+motorDriver.cpp:12:10:uint32_t accelerateDelayCalculation(uint32_t, uint32_t)	24	static
+motorDriver.cpp:25:6:void stepDirectMove(uint32_t)	32	static
+motorDriver.cpp:50:6:void stepRotate(bool, uint32_t)	32	static
+motorDriver.cpp:80:6:void directMove()	24	static
+motorDriver.cpp:105:6:void turnLeft()	24	static
+motorDriver.cpp:130:6:void turnRight()	24	static
+motorDriver.cpp:155:6:void turnBack()	24	static
+motorDriver.cpp:180:6:void moveBack()	24	static

@@ -1,0 +1,5 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+converter.cpp:10:5:int hex2dec(char*, char*)	24	static
+converter.cpp:18:5:int twoHex2dec(char*, char*, char*, char*)	32	static
+converter.cpp:28:5:int char2dec(char*, int)	32	static
+cmath:415:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = int; _Up = int]	24	static
