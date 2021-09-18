@@ -68,6 +68,9 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 * **Stepper** motor for moving and rotating accurately
 * **RFID tag** for positioning
 * **STM32** with **FreeRTOS**
+* **ESP8266** for wireless communication
+* **ESP32Cam** for live view and object tracking
+* **Sonar and proximity sensor** for checking safety
 
 <p align="center">
   <img src="https://i.imgur.com/0dLrHpk.png" />
@@ -82,6 +85,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 #### 3.2. Hardware
 
+#### 3.3. FreeRTOS in AGV
 
 ### 4. Object tracking system 
 
