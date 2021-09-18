@@ -107,10 +107,20 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 * 3S lithium battery
 * Human sensor
 
-### 4. Object tracking system 
-
+### 4. Object tracking system
 
 ![Alt Text](https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/object_tracking.gif)
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/Object_tracking_diagram.png" />
+</p>
+<p align="center">
+    <em>Object tracking sequence diagram</em>
+</p>
+
+
 
 ### 5. MQTT broker
 
