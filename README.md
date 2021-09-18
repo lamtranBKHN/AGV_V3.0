@@ -22,6 +22,9 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
   <img src="https://i.imgur.com/EpHNAb7.png" />
   <em>Controlling and planning sequence diagram</em>
 </p>
+<p align="center">
+    <<em>Controlling and planning sequence diagram</em>
+</p>
 
 
 <br />
