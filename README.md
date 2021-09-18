@@ -1,11 +1,14 @@
 # AGV_V3.0 Warehouse system Solution
+
 <br />
 
 ## Introduction
+
 AGV_V3.0 is a warehouse solution and logistics. It provides applications and tools for warehouse transportation and supervision.
 
 ## AGV_V3.0 system structure
 <!-- ![system_structure](https://i.imgur.com/muqNsgX.pnghttps://i.imgur.com/muqNsgX.png) -->
+
 <p align="center">
   <img src="https://i.imgur.com/wmu5PqV.png" />
 </p>
@@ -27,6 +30,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 * **Logging** - Write log to file for tracing information
 * **Nearest AGV finding algorithm** - Find nearest available AGV
 * **Best route finding algorithm** - Find best AGV moving way
+* **Reading and update database module**
 
 <p align="center">
   <img src="https://i.imgur.com/EpHNAb7.png" />
