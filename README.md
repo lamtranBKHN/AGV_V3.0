@@ -1,13 +1,7 @@
 AGV_V3.0 Warehouse system
 
 Click [here](https://www.google.com/)
-<a href="https://i.imgur.com/hW0TyFf.jpeg"><img src="https://i.imgur.com/hW0TyFf.jpeg" align="center" height="50%" width="50%" ></a>
-
-
-<h1 align="center">Hi 👋, I'm Lam</h1>
-<h3 align="center">Hello</h3>
-
-- 🔭 I’m currently working on [agv](agv)
+<a href="https://i.imgur.com/hW0TyFf.jpeg"><img src="https://i.imgur.com/hW0TyFf.jpeg" align="left" height="50%" width="50%" ></a>
 
 
 <h3 align="left">Languages and Tools:</h3>
