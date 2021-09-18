@@ -5,7 +5,7 @@
 AGV_V3.0 is a warehouse solution and logistics. It provides applications and tools for warehouse transportation and supervision.
 
 ## AGV_V3.0 system structure
-![system_structure](https://i.imgur.com/muqNsgX.pnghttps://i.imgur.com/muqNsgX.png)
+<!-- ![system_structure](https://i.imgur.com/muqNsgX.pnghttps://i.imgur.com/muqNsgX.png) -->
 <p align="center">
   <img src="https://i.imgur.com/muqNsgX.pnghttps://i.imgur.com/muqNsgX.png" />
 </p>
