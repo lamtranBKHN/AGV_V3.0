@@ -9,12 +9,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 1. Dashboard
 [![Watch the video](https://i.imgur.com/qRu8a2U.png)](https://youtu.be/d8McS9fE4w4)
 
-<div>
-<a href="https://i.imgur.com/hW0TyFf.jpeg"><img src="https://i.imgur.com/hW0TyFf.jpeg" align="left" height="50%" width="50%" ></a>\
-</div>
-<br>
 
-Click [here](https://www.google.com/)
 
 <br />
 <div>
