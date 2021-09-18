@@ -7,7 +7,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 ## AGV_V3.0 system structure
 ![system_structure](https://i.imgur.com/muqNsgX.pnghttps://i.imgur.com/muqNsgX.png)
 1. Dashboard
-![test](https://drive.google.com/file/d/1JBdIXDYU7c5wJdos0S9vwty9OLWS_0Rk/view?usp=sharing)
+![test](https://i.imgur.com/2BtBuxt.mp4)
 
 <div>
 <a href="https://i.imgur.com/hW0TyFf.jpeg"><img src="https://i.imgur.com/hW0TyFf.jpeg" align="left" height="50%" width="50%" ></a>\
