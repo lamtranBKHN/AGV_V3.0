@@ -124,6 +124,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 ### 7. Author
 
+***
 
 <br />
 <div>
