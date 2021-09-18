@@ -61,6 +61,14 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>Planning console application</em>
 </p>
 
+### 3. MQTT broker
+
+<p align="center">
+  <img src="https://smartfactoryvn.com/wp-content/uploads/2018/11/mqtt_broker.png" />
+</p>
+<p align="center">
+    <em>MQTT broker</em>
+</p>
 
 
 
