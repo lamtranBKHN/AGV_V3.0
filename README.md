@@ -31,6 +31,10 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 * **Nearest AGV finding algorithm** - Find nearest available AGV
 * **Best route finding algorithm** - Find best AGV moving way
 * **Reading and update database module**
+* **AGV received update status command handler**
+* **Dashboard update module**
+* **MQTT connector**
+* **HEX command with parity check bit creating module**
 
 <p align="center">
   <img src="https://i.imgur.com/EpHNAb7.png" />
