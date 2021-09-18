@@ -63,6 +63,12 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 ### 3. AGV
 
+**AGV** is based on a 2 wheel drive platform with:
+
+    * **Stepper** motor for moving and rotating accurately
+    * **RFID tag** for positioning
+    * **STM32** with **FreeRTOS**
+
 <p align="center">
   <img src="https://i.imgur.com/0dLrHpk.png" />
 </p>
