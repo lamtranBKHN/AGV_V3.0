@@ -72,6 +72,8 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 * **ESP32Cam** for live view and object tracking
 * **Sonar and proximity sensor** for checking safety
 
+<br/>
+
 <p align="center">
   <img src="https://i.imgur.com/0dLrHpk.png" />
 </p>
@@ -81,11 +83,16 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 [AGV video here](https://youtu.be/pZySXu92PTg)
 
-#### 3.1. Ability
+#### 3.1. FreeRTOS in AGV
+
+<p align="center">
+  <img src="https://i.imgur.com/0dLrHpk.png" />
+</p>
+<p align="center">
+    <em>RTOS on AGV</em>
+</p>
 
 #### 3.2. Hardware
-
-#### 3.3. FreeRTOS in AGV
 
 ### 4. Object tracking system 
 
