@@ -61,7 +61,9 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>Planning console application</em>
 </p>
 
-### 3. MQTT broker
+### 3. AGV
+
+### 4. MQTT broker
 
 [MQTT broker](https://en.wikipedia.org/wiki/MQTT) is a **server that receives all messages from the clients and then routes the messages to the appropriate destination clients.**
 
@@ -72,7 +74,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>MQTT broker</em>
 </p>
 
-## 4. Database
+## 5. Database
 
 * MariaDB Offers Tighter **Security** Measures
 * **Performance** Is Faster and More **Efficient**
@@ -84,6 +86,8 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 <p align="center">
     <em>MariaDB</em>
 </p>
+
+### 6. Author
 
 
 <br />
