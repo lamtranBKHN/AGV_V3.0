@@ -74,9 +74,9 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 ## 4. Database
 
-* MariaDB Offers Tighter Security Measures
-* Performance Is Faster and More Efficient
-* Get Access to Better User Support
+* MariaDB Offers Tighter **Security** Measures
+* **Performance** Is Faster and More **Efficient**
+* Get Access to **Better User Support**
 
 <p align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDnzmrJgWJdRFUiSfoCleZeE4mtkmSsWb6APkMmkL8Nac_jCHVDBuw25sbvYnPnsSCIQ&usqp=CAU" />
