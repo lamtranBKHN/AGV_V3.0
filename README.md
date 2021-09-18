@@ -63,6 +63,8 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 ### 3. MQTT broker
 
+[MQTT broker](https://en.wikipedia.org/wiki/MQTT) is a **server that receives all messages from the clients and then routes the messages to the appropriate destination clients.**
+
 <p align="center">
   <img src="https://smartfactoryvn.com/wp-content/uploads/2018/11/mqtt_broker.png" />
 </p>
