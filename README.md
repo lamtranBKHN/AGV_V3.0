@@ -72,6 +72,14 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>MQTT broker</em>
 </p>
 
+## 4. Database
+
+<p align="center">
+  <img src="https://wiki.matbao.net/wp-content/uploads/2019/12/mariadb-la-gi-1-1200x700.png" />
+</p>
+<p align="center">
+    <em>MariaDB</em>
+</p>
 
 
 <br />
