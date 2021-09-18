@@ -20,6 +20,12 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 * **Monitor application**
 
 ### 2. Controller and planning module
+
+* **Center application controller** - Handle: Cargo, goods moving request from user; received AGV status; update dashboard; reading and update database, ...
+* **Logging** - Write log to file for tracing information
+* **Nearest AGV finding algorithm** - Find nearest available AGV
+* **Best route finding algorithm** - Find best AGV moving way
+
 <p align="center">
   <img src="https://i.imgur.com/EpHNAb7.png" />
 </p>
@@ -41,10 +47,6 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>Planning console application</em>
 </p>
 
-* **Center application controller** - Handle: Cargo, goods moving request from user; received AGV status; update dashboard; reading and update database, ...
-* **Logging** - Write log to file for tracing information
-* **Nearest AGV finding algorithm** - Find nearest available AGV
-* **Best route finding algorithm** - Find best AGV moving way
 
 
 
