@@ -12,6 +12,8 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 1. Dashboard
 [![Watch the video](https://i.imgur.com/qRu8a2U.png)](https://youtu.be/d8McS9fE4w4)
+* ***Live data dashboard***
+* ***User interface*** which is interactions between users and AGV application
 
 
 
