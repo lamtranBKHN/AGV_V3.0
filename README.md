@@ -72,8 +72,15 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 [AGV video here](https://youtu.be/pZySXu92PTg)
 
+#### 3.1. Ability
 
-### 4. MQTT broker
+#### 3.2. Hardware
+
+
+### 4. Object tracking system 
+
+
+### 5. MQTT broker
 
 [MQTT broker](https://en.wikipedia.org/wiki/MQTT) is a **server that receives all messages from the clients and then routes the messages to the appropriate destination clients.**
 
@@ -84,7 +91,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>MQTT broker</em>
 </p>
 
-## 5. Database
+## 6. Database
 
 * [MariaDB](https://en.wikipedia.org/wiki/MariaDB) Offers Tighter **Security** Measures
 * **Performance** Is Faster and More **Efficient**
@@ -97,7 +104,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>MariaDB</em>
 </p>
 
-### 6. Author
+### 7. Author
 
 
 <br />
