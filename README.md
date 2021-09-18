@@ -86,11 +86,12 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 #### 3.1. FreeRTOS in AGV
 
 <p align="center">
-  <img src="https://i.imgur.com/0dLrHpk.png" />
+  <img src="https://i.imgur.com/poCubnd.png" />
 </p>
 <p align="center">
     <em>RTOS on AGV</em>
 </p>
+
 
 #### 3.2. Hardware
 
