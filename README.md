@@ -22,7 +22,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 * **User interface** which is interactions between users and AGV application
 * **Monitor application**
 
-![Alt Text](https://s9.gifyu.com/images/dashboarde46adfe02ab33099.gif)
+![Alt Text](https://lh3.googleusercontent.com/RLRewLKiSdSvGHaeaIwW7mcLCzi1ScSVIRKC8ZzjMiucbOYyRy8EByWT9b-QZ3siB5_Rmq3Feyao954bDppguCMAOMQH4ss7i7rD7rpRHQB6jdkdVuiWLICCM0SVCuybOdw_hh9PrbAtsllnP1dG-nBKuNEXHC7WwrINjKidRt2qDDL-pOsrHZOfrUHioDqwQAziCEeZcDT8cX47xSOkmtO6LvT4t01t8Mik2sjKLunMt_B8kND8Gdwh6lH1F47oLjD1Zdj03uKalJNn2CVKlnnR4tqpRpBz3jp0PqSXkJtTuNnPDIoRF5Jzx8V3ooDLP8jKyikGSTWcoFPk8AfK0VvWfstMrDgd0oi0ZaE37ssBY-VvdwTOhdrkJtmGGG4rvQR3_og6p-pWQJ-q7S2aamxzBqBHWuh4FSx1pfiE6w7JgX6Y_vjWqKkgR-YSK-YejlAGTcYFa8hEMKgwZcydoC-MtNW9TzOlhFFocr9kYDOfTaclo47haCe3ZXfQ1EliNobJUxHxb-RnOPUcAQNu85633wwZtzovG7RUmLvcZK48ffKvwFbZxzaFYM-8Bp71iK3f48EFoU-2HUK4EH-H9FnG5x1eN6I5KfCBo4Ik9k8VgX75WMjR8gzz9XxxM26enhOO6YcNH_hd8Uz-JSBaZ_mUonhBR09P66SLdbzuy61nZEZYSvWqI5jXehOYTO2PPpC9I7Lr7G95EnBtJhzomc7fHA=w640-h480-no?authuser=0)
 
 [![Watch the video](https://i.imgur.com/VYz3cjG.png)](https://youtu.be/d8McS9fE4w4)
 
