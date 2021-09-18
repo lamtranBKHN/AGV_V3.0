@@ -8,7 +8,9 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 <!-- ![system_structure](https://i.imgur.com/muqNsgX.pnghttps://i.imgur.com/muqNsgX.png) -->
 <p align="center">
   <img src="https://i.imgur.com/muqNsgX.pnghttps://i.imgur.com/muqNsgX.png" />
-  <em>System sequence diagram</em>
+</p>
+<p align="center">
+    <em>System sequence diagram</em>
 </p>
 
 ### 1. Dashboard
@@ -20,10 +22,9 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 ### 2. Controller and planning module
 <p align="center">
   <img src="https://i.imgur.com/EpHNAb7.png" />
-  <em>Controlling and planning sequence diagram</em>
 </p>
 <p align="center">
-    <<em>Controlling and planning sequence diagram</em>
+    <em>Controlling and planning sequence diagram</em>
 </p>
 
 
