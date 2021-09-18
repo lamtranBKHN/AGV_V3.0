@@ -95,6 +95,16 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 #### 3.2. Hardware
 
+* STM32F407VET6 ARM Cortex-M4 | FreeRTOS
+* ESP32Cam
+* ESP8266
+* HC-SR04
+* A4988 Stepper motor driver
+* DC DC Buck converter
+* Proximity sensors
+* 3S lithium battery
+* Human sensor
+
 ### 4. Object tracking system 
 
 
