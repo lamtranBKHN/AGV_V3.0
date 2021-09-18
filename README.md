@@ -14,10 +14,12 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 </p>
 
 ### 1. Dashboard
-[![Watch the video](https://i.imgur.com/VYz3cjG.png)](https://youtu.be/d8McS9fE4w4)
+
 * **Live data dashboard**
 * **User interface** which is interactions between users and AGV application
 * **Monitor application**
+
+[![Watch the video](https://i.imgur.com/VYz3cjG.png)](https://youtu.be/d8McS9fE4w4)
 
 ### 2. Controller and planning module
 
