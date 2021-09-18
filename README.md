@@ -34,6 +34,12 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>Planning process</em>
 </p>
 
+<p align="center">
+  <img src="https://i.imgur.com/yvP3bC2.png" />
+</p>
+<p align="center">
+    <em>Planning console application</em>
+</p>
 
 
 
