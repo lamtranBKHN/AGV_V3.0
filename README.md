@@ -4,7 +4,11 @@
 
 ## Introduction
 
-AGV_V3.0 is a warehouse solution and logistics. It provides applications and tools for warehouse transportation and supervision.
+AGV_V3.0 is a warehouse solution and logistics. It provides applications and tools for warehouse transportation and supervision. This project is the improvement of:
+
+* [AGV_V1.0](https://www.linkedin.com/posts/l%C3%A2m-t5-086b47170_agv-lineabrfollowerabrrobot-activity-6843847041525911552-8HYL)
+* [AGV_V2.0](https://github.com/lamtranBKHN/AGV-2.0) [post here](https://www.linkedin.com/posts/l%C3%A2m-t5-086b47170_022020-082021-agv-v20-stm32-esp8266-activity-6843869974050807808-DK26)
+
 
 ## AGV_V3.0 system structure
 <!-- ![system_structure](https://i.imgur.com/muqNsgX.pnghttps://i.imgur.com/muqNsgX.png) -->
@@ -118,7 +122,9 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 ### 4. Object tracking system
 
-![Alt Text](https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/object_tracking.gif)
+[![Alt Text](https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/object_tracking.gif)](https://youtu.be/EVXrnBgntQY)
+
+[Video here](https://youtu.be/EVXrnBgntQY)
 
 <br/>
 
