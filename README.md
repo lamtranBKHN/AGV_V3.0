@@ -18,6 +18,8 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 [![System demo](https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/system_demo.png)](https://youtu.be/G6iVG4XJmp0)
 
+[System demo video here](https://youtu.be/G6iVG4XJmp0)
+
 
 ### 1. Dashboard
 
@@ -87,6 +89,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 </p>
 
 [AGV video here](https://youtu.be/pZySXu92PTg)
+[More AGV picture]()https://imgur.com/gallery/oL9T0nI
 
 #### 3.1. FreeRTOS in AGV
 
