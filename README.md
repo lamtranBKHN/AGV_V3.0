@@ -31,6 +31,8 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 [![Watch the video](https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/dashboard.gif)](https://youtu.be/d8McS9fE4w4)
 
+[Dashboard video here](https://youtu.be/d8McS9fE4w4)
+
 ### 2. Controller and planning module
 
 * **Center application controller** - Handle: Cargo, goods moving request from user; received AGV status; update dashboard; reading and update database, ...
@@ -89,7 +91,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 </p>
 
 [AGV video here](https://youtu.be/pZySXu92PTg)
-[More AGV picture]()https://imgur.com/gallery/oL9T0nI
+[More AGV picture](https://imgur.com/gallery/oL9T0nI)
 
 #### 3.1. FreeRTOS in AGV
 
