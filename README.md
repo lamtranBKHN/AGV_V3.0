@@ -6,8 +6,8 @@
 
 AGV_V3.0 is a warehouse solution and logistics. It provides applications and tools for warehouse transportation and supervision. This project is the improvement of:
 
-* [AGV_V1.0](https://www.linkedin.com/posts/l%C3%A2m-t5-086b47170_agv-lineabrfollowerabrrobot-activity-6843847041525911552-8HYL)
-* [AGV_V2.0](https://github.com/lamtranBKHN/AGV-2.0) [post here](https://www.linkedin.com/posts/l%C3%A2m-t5-086b47170_022020-082021-agv-v20-stm32-esp8266-activity-6843869974050807808-DK26)
+* [AGV_V1.0](https://www.linkedin.com/posts/lamtran99_agv-lineabrfollowerabrrobot-activity-6843847041525911552-7mp9)
+* [AGV_V2.0](https://github.com/lamtranBKHN/AGV-2.0) [post here](https://www.linkedin.com/posts/lamtran99_022020-082020-agv-v20-stm32-esp8266-activity-6843869974050807808-ysJy)
 
 
 ## AGV_V3.0 system structure
