@@ -151,6 +151,13 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 ### 7. Author
 
+**Tran Danh Lam**
+
++ [github/lamtranBKHN](https://github.com/lamtranBKHN/)
++ [linkedin](www.linkedin.com/in/lâm-t5-086b47170)
++ Gmail: trandanhlam99@gmail.com
+
+* **I complete this project by myself. If you have any question, feel free to contact me. Thanks and have a wonderful day!**
 ***
 
 <div>
