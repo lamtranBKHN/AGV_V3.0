@@ -16,6 +16,9 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
     <em>System sequence diagram</em>
 </p>
 
+[![System demo](https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/system_demo.png)](https://youtu.be/G6iVG4XJmp0)
+
+
 ### 1. Dashboard
 
 * **Live data dashboard**
@@ -24,7 +27,7 @@ AGV_V3.0 is a warehouse solution and logistics. It provides applications and too
 
 ![Alt Text](https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/dashboard.gif)
 
-[![Watch the video](https://i.imgur.com/VYz3cjG.png)](https://youtu.be/d8McS9fE4w4)
+[![Watch the video](https://github.com/lamtranBKHN/AGV_V3.0/blob/origin/Videos%20and%20pictures/dashboard.gif)](https://youtu.be/d8McS9fE4w4)
 
 ### 2. Controller and planning module
 
